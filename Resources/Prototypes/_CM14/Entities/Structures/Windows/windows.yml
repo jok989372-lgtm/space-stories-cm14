@@ -48,7 +48,7 @@
     sprite: _CM14/Structures/Windows/almayer_window.rsi
     state: alm_rwindow0
   - type: IconSmooth
-    key: walls
+    key: window
     base: alm_rwindow
     mode: CardinalFlags
 
@@ -72,7 +72,7 @@
     sprite: _CM14/Structures/Windows/white_reinforced_window.rsi
     state: white_rwindow0
   - type: IconSmooth
-    key: walls
+    key: window
     base: white_rwindow
     mode: CardinalFlags
 
@@ -96,7 +96,7 @@
     sprite: _CM14/Structures/Windows/colony_window.rsi
     state: col_window0
   - type: IconSmooth
-    key: walls
+    key: window
     base: col_window
     mode: CardinalFlags
 
@@ -111,6 +111,6 @@
   - type: Icon
     state: col_rwindow0
   - type: IconSmooth
-    key: walls
+    key: window
     base: col_rwindow
     mode: CardinalFlags

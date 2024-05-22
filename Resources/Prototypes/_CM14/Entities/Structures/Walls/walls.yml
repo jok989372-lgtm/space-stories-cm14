@@ -27,6 +27,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: metal
   - type: Construction
     graph: CMGirder
@@ -45,6 +46,7 @@
     state: wall
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 - type: entity
@@ -60,6 +62,7 @@
     state: wall
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 # Reinforced
@@ -91,6 +94,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: rwall
   - type: Construction
     graph: CMGirder
@@ -119,6 +123,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: rwall
 
 - type: entity
@@ -132,6 +137,7 @@
     state: reinforced
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 - type: entity
@@ -145,6 +151,7 @@
     state: reinforced
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 # Indestructible
@@ -163,6 +170,7 @@
       - Wall
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: rwall
 
 - type: entity
@@ -176,6 +184,7 @@
     state: hull
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 - type: entity
@@ -189,6 +198,7 @@
     state: hull
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wall
 
 # Shuttle
@@ -236,6 +246,7 @@
     state: cavewall
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: cavewall
   - type: Destructible
     thresholds:
@@ -272,6 +283,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: cult
 
 # Wood
@@ -299,6 +311,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: wood
 
 # Jungle
@@ -326,4 +339,5 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
+    keyTwo: window
     base: jungle_veg

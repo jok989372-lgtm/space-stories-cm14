@@ -341,7 +341,7 @@ namespace Content.Client.IconSmoothing
             while (candidates.MoveNext(out var entity))
             {
                 if (smoothQuery.TryGetComponent(entity, out var other) &&
-                    other.SmoothKey == smooth.SmoothKey &&
+                    (other.SmoothKey == smooth.SmoothKey || other.SmoothKey == smooth.SmoothKeyTwo) && 
                     other.Enabled)
                 {
                     return true;
