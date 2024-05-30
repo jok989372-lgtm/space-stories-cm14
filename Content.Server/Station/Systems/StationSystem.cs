@@ -307,7 +307,7 @@ public sealed class StationSystem : EntitySystem
                 if (rotation != null && offset != null)
                 {
                     var pos = _transform.GetWorldPosition(grid);
-                    _transform.SetWorldPositionRotation(grid, pos + offset.Value, rotation.Value);
+                    // _transform.SetWorldPositionRotation(grid, pos + offset.Value, rotation.Value);
                     continue;
                 }
                 if (rotation != null)
