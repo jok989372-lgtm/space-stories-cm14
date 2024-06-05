@@ -15,7 +15,22 @@
     time: 10800 # 3 hours
   weight: 100
   requireAdminNotify: true
+  joinNotifyCrew: false
+  jobEntity: CMXenoQueen
   hidden: false
+
+- type: entity
+  parent: CMXenoSpawnPointJobBase
+  id: CMSpawnPointQueen
+  name: queen spawn point
+  components:
+  - type: SpawnPoint
+    job_id: CMXenoQueen
+  - type: Sprite
+    layers:
+    - sprite: Markers/jobs.rsi
+      state: green
+    - state: queen
 
 - type: playTimeTracker
   id: CMJobXenoQueen
