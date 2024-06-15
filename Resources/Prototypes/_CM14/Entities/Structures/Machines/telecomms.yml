@@ -34,8 +34,7 @@
   components:
   - type: Sprite
     sprite: _CM14/Structures/comm_tower.rsi
-    snapCardinals: true
-    noRot: true
+    offset: -0.5,1
     layers:
     - state: broken
   - type: Construction
@@ -48,7 +47,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-1,-1.5,1,-0.5"
+          bounds: "-1.5,-0.5,0.5,0.5"
         density: 190
         mask:
         - MachineMask
@@ -66,7 +65,6 @@
   components:
   - type: Sprite
     sprite: _CM14/Structures/comm_tower.rsi
-    noRot: false
     layers:
     - state: off
     - state: default
