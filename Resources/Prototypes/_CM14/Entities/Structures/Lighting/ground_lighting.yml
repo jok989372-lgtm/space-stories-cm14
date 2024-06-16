@@ -52,6 +52,11 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalGlassBreak
+  - type: PointLight
+    radius: 10
+    energy: 2.5
+    softness: 0.9
+    color: "#FFFFEE"
 
 - type: entity
   id: CMLightPost
@@ -108,4 +113,9 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalGlassBreak
+  - type: PointLight
+    radius: 10
+    energy: 0.5
+    softness: 0.9
+    color: "#FFFFEE"
 
