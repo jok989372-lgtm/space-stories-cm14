@@ -2,7 +2,7 @@
 # Загружается перед настройками конфигурации, специфичными для сервера.
 
 [game]
-hostname         = "📚 Space Stories - Colonial Marines 🌍 [TTS] [ЗБТ]"
+hostname         = "📚 Space Stories - Colonial Marines 🌍 [TTS]"
 desc             = ""
 lobbyenabled     = true
 lobbyduration    = 180
@@ -21,7 +21,7 @@ flavor_text = true
 maximum_width = 26
 
 [net]
-tickrate        = 30
+tickrate        = 60
 max_connections = 1024
 
 [vote]
@@ -34,12 +34,23 @@ limit = 10.0
 new_player_threshold = 600
 
 [autovote]
-enabled = true
+enabled = false
 
 [atmos]
 space_wind           = false
 monstermos_rip_tiles = false
 grid_impulse         = false
+
+[physics]
+maxlinvelocity = 41
+
+[infolinks]
+bug_report = "https://discord.gg/5j3WhYanuQ"
+discord    = "https://discord.gg/5j3WhYanuQ"
+# patreon    = "" Ссылка на бусти
+wiki       = "https://spacestories.club/index.php?title=Colonial_Marines"
+appeal     = "https://discord.gg/5j3WhYanuQ"
+patreon    = "https://discord.gg/5j3WhYanuQ"
 
 # [server]
 # rules_file = "CM_Rules.txt"
