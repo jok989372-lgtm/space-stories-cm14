@@ -6,7 +6,7 @@
   roles:
   - CMRifleman
   - CMSquadLeader
-  - CMFireteamLeader
+  # - CMFireteamLeader
   - CMWeaponsSpecialist
   # - CMSmartgunner
   - CMHospitalCorpsman
