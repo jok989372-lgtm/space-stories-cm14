@@ -6,6 +6,7 @@ using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Content.Server.Administration.Managers;
+using Content.Server.Preferences.Managers;
 using Content.Server.Afk;
 using Content.Server.Discord;
 using Content.Server.GameTicking;
@@ -39,6 +40,7 @@ namespace Content.Server.Administration.Systems
         [Dependency] private readonly SharedMindSystem _minds = default!;
         [Dependency] private readonly IAfkManager _afkManager = default!;
         [Dependency] private readonly PlayerRateLimitManager _rateLimit = default!;
+        [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!;
 
         [GeneratedRegex(@"^https://discord\.com/api/webhooks/(\d+)/((?!.*/).*)$")]
         private static partial Regex DiscordRegex();
@@ -421,14 +423,15 @@ namespace Content.Server.Administration.Systems
             var escapedText = FormattedMessage.EscapeText(message.Text);
 
             string bwoinkText;
+            Color? colorOverride = null;
 
-            if (senderAdmin is not null && senderAdmin.Flags == AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
+            if (senderAdmin is not null &&
+                senderAdmin.HasFlag(AdminFlags.Adminhelp) &&
+                senderAdmin.Title is { } title)
             {
-                bwoinkText = $"[color=purple]{senderSession.Name}[/color]";
-            }
-            else if (senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp))
-            {
-                bwoinkText = $"[color=red]{senderSession.Name}[/color]";
+                var prefs = _preferencesManager.GetPreferences(senderSession.UserId);
+                colorOverride = prefs.AdminOOCColor;
+                bwoinkText = $"[color={colorOverride.Value.ToHex()}]\\[{title}\\] {senderSession.Name}[/color]";
             }
             else
             {
