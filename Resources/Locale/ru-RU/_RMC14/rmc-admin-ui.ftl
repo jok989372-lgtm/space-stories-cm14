@@ -1,0 +1,13 @@
+rmc-ui-cm-actions = Действия CM
+rmc-ui-transform-tab = Преобразование
+rmc-ui-xeno-tab = Ксено
+rmc-ui-squads-tab = Отряды
+rmc-ui-xeno-hive = Улей:
+rmc-ui-open-rmc-actions = Открыть действия CM
+rmc-ui-create-new-hive = Создайте новый улей
+rmc-ui-create-hive-title = Новое название улья
+rmc-ui-humanoid = Гуманоид
+rmc-ui-tier = Уровень { $tier }
+rmc-ui-create-squad = Создать отряд
+rmc-ui-members = Члены: { $members }
+rmc-ui-add-to-squad = Добавить в отряд
