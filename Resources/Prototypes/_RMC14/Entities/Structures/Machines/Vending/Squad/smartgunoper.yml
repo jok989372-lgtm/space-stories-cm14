@@ -136,7 +136,7 @@
       entries:
       - id: CMPouchFlareFilled
         name: подсумок фаеров (заполненный)
-      #- id: CMElectronicsPouch
+      - id: CMElectronicsPouch
       - id: CMPouchFirstAidInjectors
         name: подсумок первой помощи (многоразовые инъекторы)
       - id: CMPouchFirstAidSplintsGauzeOintment
