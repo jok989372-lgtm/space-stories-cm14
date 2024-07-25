@@ -554,8 +554,8 @@
 # M3 Light T
 
 - type: entity
-  parent: CMArmorM3T
-  id: CMArmorM3TAlpha
+  parent: RMCArmorM3TDemo
+  id: RMCArmorM3TDemoAlpha
   components:
   - type: Clothing
     clothingVisuals:
@@ -565,8 +565,8 @@
         color: "#E6191988"
 
 - type: entity
-  parent: CMArmorM3T
-  id: CMArmorM3TBravo
+  parent: RMCArmorM3TDemo
+  id: RMCArmorM3TDemoBravo
   components:
   - type: Clothing
     clothingVisuals:
@@ -576,8 +576,8 @@
         color: "#FFC32D88"
 
 - type: entity
-  parent: CMArmorM3T
-  id: CMArmorM3TCharlie
+  parent: RMCArmorM3TDemo
+  id: RMCArmorM3TDemoCharlie
   components:
   - type: Clothing
     clothingVisuals:
@@ -587,8 +587,8 @@
         color: "#C864C888"
 
 - type: entity
-  parent: CMArmorM3T
-  id: CMArmorM3TDelta
+  parent: RMCArmorM3TDemo
+  id: RMCArmorM3TDemoDelta
   components:
   - type: Clothing
     clothingVisuals:

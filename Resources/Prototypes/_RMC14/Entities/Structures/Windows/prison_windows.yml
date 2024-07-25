@@ -146,7 +146,7 @@
     sprite: _RMC14/Structures/Windows/prison_rwindow.rsi
     state: prison_rwindow0
   - type: IconSmooth
-    key: walls
+    key: window
     base: prison_rwindow
     mode: CardinalFlags
     # TODO RMC14 200 hp, but then it spawns indestructible shutters apparently idk
