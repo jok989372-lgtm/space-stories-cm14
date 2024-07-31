@@ -78,6 +78,7 @@
   - type: Corrodible
     isCorrodible: false
   - type: GunIFF
+    enabled: true
   - type: RMCNameItemOnVend
     item: PrimaryGun
   - type: AttachableHolder
