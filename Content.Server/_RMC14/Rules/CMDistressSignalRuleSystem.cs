@@ -859,9 +859,9 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         SelectedPlanetMapName = SelectedPlanetMapName switch
         {
             "lv624" => "LV-624",
-            "solaris" => "Солярис Ридж",
-            "prison" => "Научный центр Фиорины",
-            "shiva" => "Снежная Шива",
+            "solaris" => "Solaris Ridge",
+            "prison" => "Fiorina Science Annex",
+            "shiva" => "Shivas Snowball",
             _ => SelectedPlanetMapName,
         };
 
