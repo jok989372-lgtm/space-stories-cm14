@@ -31,7 +31,7 @@
       - id: RMCSniperAntiMaterielEquipmentCase
     - name: Extra Scout Ammunition
       entries:
-      - id: RMCMagazineRifleM4SPRA19Flak
+      - id: RMCMagazineRifleM4SPRA19Impact
         points: 30
       - id: RMCMagazineRifleM4SPRA19Incendiary
         points: 30

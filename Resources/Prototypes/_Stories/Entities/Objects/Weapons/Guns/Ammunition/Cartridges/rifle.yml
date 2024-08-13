@@ -1,15 +1,15 @@
 - type: entity
   parent: CMBaseCartridgeRifle
-  id: RMCCartridgeRifleM4SPRA19Flak
-  name: cartridge (A19 flak)
-  description: A flak A19 cartridge. Fits in M4SPR custom magazines.
+  id: RMCCartridgeRifleM4SPRA19Impact
+  name: cartridge (A19 impact)
+  description: A impact A19 cartridge. Fits in M4SPR custom magazines.
   components:
   - type: Tag
     tags:
       - Cartridge
       - RMCCartridgeRifleM4SPRA19
   - type: CartridgeAmmo
-    proto: BulletRifleM4SPRA19Flak
+    proto: BulletRifleM4SPRA19Impact
 
 - type: entity
   parent: CMBaseCartridgeRifle

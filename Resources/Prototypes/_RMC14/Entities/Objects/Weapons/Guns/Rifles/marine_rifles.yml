@@ -355,7 +355,7 @@
     recoilUnwielded: 4
     scatterWielded: 2.5
     scatterUnwielded: 8
-    baseFireRate: 1.8
+    baseFireRate: 1.4
   - type: GunDamageModifier
     multiplier: 1.2 # Lower to allow for normal M4SPR mags to have lower damage. A19 mags have been given significantly higher damage to compensate. 
   - type: WieldableSpeedModifiers

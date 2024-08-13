@@ -15,7 +15,7 @@
 
 - type: entity
   parent: BaseBullet
-  id: BulletRifleM4SPRA19Flak
+  id: BulletRifleM4SPRA19Impact
   noSpawn: true
   components:
   - type: Projectile
@@ -25,6 +25,6 @@
   - type: CMArmorPiercing
     amount: 0
   - type: XenoSlowingSpitProjectile
-    slow: 3
-    slowMultiplier: 0.6
-    paralyze: 0
+    slow: 0
+    slowMultiplier: 1
+    paralyze: 0.4

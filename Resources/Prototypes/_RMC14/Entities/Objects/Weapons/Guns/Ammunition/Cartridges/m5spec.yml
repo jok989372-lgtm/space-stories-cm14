@@ -127,7 +127,7 @@
   - type: StunOnCollide
   # This only works for AP rockets because it's supposed to have a hardcoded 6 second stun.
   # Almost every other stun in the future should use some kind of configurable and resistable system instead.
-    stunAmount: 6
-    knockdownAmount: 6
+    stunAmount: 2
+    knockdownAmount: 2
 
 # TODO RMC14 84mm WP

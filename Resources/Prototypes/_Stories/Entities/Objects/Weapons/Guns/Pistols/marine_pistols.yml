@@ -3,8 +3,10 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: CMCadetWeaponPistolM1984
+  name: M1984 cadet service pistol
   components:
   - type: GunIFF
+    enabled: true
   - type: GunUserWhitelist
     whitelist:
       components:
@@ -13,8 +15,10 @@
 - type: entity
   parent: CMWeaponPistolM77
   id: CMCadetWeaponPistolM77
+  name: M77 cadet combat pistol
   components:
   - type: GunIFF
+    enabled: true
   - type: GunUserWhitelist
     whitelist:
       components:
@@ -23,8 +27,10 @@
 - type: entity
   parent: CMWeaponPistolMK80
   id: CMCadetWeaponPistolMK80
+  name: MK80 cadet pistol
   components:
   - type: GunIFF
+    enabled: true
   - type: GunUserWhitelist
     whitelist:
       components:

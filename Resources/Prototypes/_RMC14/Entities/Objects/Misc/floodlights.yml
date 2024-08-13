@@ -23,7 +23,7 @@
     netsync: false
     energy: 5
     offset: "0, 0"
-    color: "#ECFFFF"
+    color: "#FFE4CE"
     mask: /Textures/_RMC14/Effects/LightMasks/quad_cone.png
   - type: Destructible
     thresholds:
@@ -90,7 +90,7 @@
     netsync: false
     energy: 7
     offset: "0,0.5"
-    color: "#ECFFFF"
+    color: "#FFE4CE"
     mask: /Textures/_RMC14/Effects/LightMasks/quad_cone.png
   - type: Destructible
     thresholds:
@@ -172,7 +172,7 @@
     radius: 5
     energy: 3
     netsync: false
-    color: "#ECFFFF"
+    color: "#FFE4CE"
   - type: Fixtures
     fixtures:
       fix1:

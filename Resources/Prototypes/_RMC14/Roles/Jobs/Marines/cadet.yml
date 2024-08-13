@@ -5,10 +5,10 @@
   description: cm-job-description-cadet
   playTimeTracker: CMJobCadet
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: CMSquad
-      time: 3600 # 1 hours
-      inverted: true
+  - !type:DepartmentTimeRequirement
+    department: CMSquad
+    time: 3600 # 1 hours
+    inverted: true
   startingGear: CMGearCadet
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
@@ -19,7 +19,8 @@
   - !type:AddComponentSpecial
     components:
     - type: Skills
-      firearms: 1
+      skills:
+        RMCSkillFirearms: 1
     - type: CMVendorUser
       points: 45
     - type: CadetWhitelist
