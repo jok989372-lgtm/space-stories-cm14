@@ -113,3 +113,6 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-rail: -0.1875, 0.125
+  - type: Construction
+    graph: SmartGunConstruct
+    node: start

@@ -154,6 +154,9 @@
       rmc-aslot-rail: 0.06, 0.185
       rmc-aslot-stock: -0.84, 0.0325
       rmc-aslot-underbarrel: 0.25, -0.343
+  - type: Construction
+    graph: RifleM54CConstruct
+    node: start
 
 - type: entity
   name: M54CE2 heavy assault rifle
@@ -330,6 +333,9 @@
       rmc-aslot-barrel: 1.18, 0.0
       rmc-aslot-rail: 0.225, 0.125
       rmc-aslot-underbarrel: 0.62, -0.31
+  - type: Construction
+    graph: RifleM4SPRConstruct
+    node: start
 
 - type: entity
   parent: WeaponRifleM4SPR
@@ -418,6 +424,9 @@
           - CMMagazineRifleM4SPRExt
           - RMCMagazineRifleM4SPRA19
           - RMCMagazineRifleM4SPRA19Impact
+  - type: Construction
+    graph: RifleM4SPRCustomConstruct
+    node: start
 
 - type: Tag
   id: WeaponRifleM54CE2

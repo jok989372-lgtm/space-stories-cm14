@@ -108,6 +108,11 @@ namespace Content.Client.Stylesheets
         public static readonly Color ButtonColorCautionPressed = Color.FromHex("#3e6c45");
         public static readonly Color ButtonColorCautionDisabled = Color.FromHex("#602a2a");
 
+        public static readonly Color ButtonColorOrangeDefault = Color.FromHex("#e77719");
+        public static readonly Color ButtonColorOrangeHovered = Color.FromHex("#eb8129");
+        public static readonly Color ButtonColorOrangePressed = Color.FromHex("#ec8c3c");
+        public static readonly Color ButtonColorOrangeDisabled = Color.FromHex("#c76512");
+
         public static readonly Color ButtonColorGoodDefault = Color.FromHex("#3E6C45");
         public static readonly Color ButtonColorGoodHovered = Color.FromHex("#31843E");
 
@@ -669,6 +674,23 @@ namespace Content.Client.Stylesheets
                 Element<ContainerButton>().Class(ContainerButton.StyleClassButton).Class(ButtonCaution)
                     .Pseudo(ContainerButton.StylePseudoClassDisabled)
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorCautionDisabled),
+
+                // Colors for the orange buttons.
+                Element<ContainerButton>().Class(ContainerButton.StyleClassButton).Class(ButtonOrange)
+                    .Pseudo(ContainerButton.StylePseudoClassNormal)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorOrangeDefault),
+
+                Element<ContainerButton>().Class(ContainerButton.StyleClassButton).Class(ButtonOrange)
+                    .Pseudo(ContainerButton.StylePseudoClassHover)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorOrangeHovered),
+
+                Element<ContainerButton>().Class(ContainerButton.StyleClassButton).Class(ButtonOrange)
+                    .Pseudo(ContainerButton.StylePseudoClassPressed)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorOrangePressed),
+
+                Element<ContainerButton>().Class(ContainerButton.StyleClassButton).Class(ButtonOrange)
+                    .Pseudo(ContainerButton.StylePseudoClassDisabled)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorOrangeDisabled),
 
                 // Colors for confirm buttons confirm states.
                 Element<ConfirmButton>()

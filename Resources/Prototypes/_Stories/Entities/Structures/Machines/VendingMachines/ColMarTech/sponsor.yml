@@ -1,0 +1,41 @@
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSponsor
+  name: ColMarTech automated spray rack
+  description: An automated spray rack hooked up to a big storage of standard-issue spray.
+  components:
+  - type: Sprite
+    sprite: _Stories/Structures/Machines/VendingMachines/ColMarTech/sponsor.rsi
+  - type: CMAutomatedVendor
+    pointsType: Sponsor
+    sections:
+    - name: Балончики с краской
+      entries:
+      - id: StoriesSprayFate
+        points: 1
+      - id: StoriesSprayRust
+        points: 1
+      - id: StoriesSprayAmethyst
+        points: 1
+      - id: StoriesSprayPhantom
+        points: 1
+      - id: StoriesSprayGoldRush
+        points: 2
+      - id: StoriesSprayAngelOfDeath
+        points: 5
+      - id: StoriesSprayPhoenix
+        points: 6
+      - id: StoriesSprayBloodyParty
+        points: 4
+      - id: StoriesSprayToxic
+        points: 3
+      - id: StoriesSprayImpulse
+        points: 9
+      - id: StoriesSprayBombardier
+        points: 4
+      - id: StoriesSprayGoldenAutumn
+        points: 8
+      - id: StoriesSprayPacifist
+        points: 10
+      - id: StoriesSprayTiger
+        points: 7

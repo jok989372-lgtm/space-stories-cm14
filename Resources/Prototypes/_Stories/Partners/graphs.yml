@@ -1,0 +1,209 @@
+- type: constructionGraph
+  id: ShotgunM42A2Construct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponShotgunM42A2
+    edges:
+    - to: bloodyParty
+      steps:
+      - tag: SprayBloodyParty
+        doAfter: 2
+  - node: bloodyParty
+    entity: StoriesWeaponShotgunM42A2BloodyParty
+
+- type: constructionGraph
+  id: RifleM54CConstruct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponRifleM54C
+    edges:
+    - to: phoenix
+      steps:
+      - tag: SprayPhoenix
+        doAfter: 2
+  - node: phoenix
+    entity: StoriesWeaponRifleM54CPhoenix
+
+- type: constructionGraph
+  id: RifleM4SPRConstruct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponRifleM4SPR
+    edges:
+    - to: angelOfDeath
+      steps:
+      - tag: SprayAngelOfDeath
+        doAfter: 2
+  - node: angelOfDeath
+    entity: StoriesWeaponRifleM4SPRAngelOfDeath
+
+- type: constructionGraph
+  id: RifleM4SPRCustomConstruct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponRifleM4SPRCustom
+    edges:
+    - to: angelOfDeath
+      steps:
+      - tag: SprayAngelOfDeath
+        doAfter: 2
+  - node: angelOfDeath
+    entity: StoriesWeaponRifleM4SPRCustomAngelOfDeath
+
+- type: constructionGraph
+  id: SMGM63Construct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponSMGM63
+    edges:
+    - to: toxic
+      steps:
+      - tag: SprayToxic
+        doAfter: 2
+  - node: toxic
+    entity: StoriesWeaponSMGM63Toxic
+
+- type: constructionGraph
+  id: RevolverM44Construct
+  start: start
+  graph:
+  - node: start
+    entity: RMCWeaponRevolverM44
+    edges:
+    - to: goldRush
+      steps:
+      - tag: SprayGoldRush
+        doAfter: 2
+  - node: goldRush
+    entity: StoriesWeaponRevolverM44GoldRush
+
+- type: constructionGraph
+  id: PistolM77Construct
+  start: start
+  graph:
+  - node: start
+    entity: CMWeaponPistolM77
+    edges:
+    - to: fate
+      steps:
+      - tag: SprayFate
+        doAfter: 2
+  - node: fate
+    entity: StoriesWeaponPistolM77Fate
+
+- type: constructionGraph
+  id: PistolM1984Construct
+  start: start
+  graph:
+  - node: start
+    entity: CMWeaponPistolM1984
+    edges:
+    - to: rust
+      steps:
+      - tag: SprayRust
+        doAfter: 2
+  - node: rust
+    entity: StoriesWeaponPistolM1984Rust
+
+- type: constructionGraph
+  id: PistolMK80Construct
+  start: start
+  graph:
+  - node: start
+    entity: CMWeaponPistolMK80
+    edges:
+    - to: amethyst
+      steps:
+      - tag: SprayAmethyst
+        doAfter: 2
+  - node: amethyst
+    entity: StoriesWeaponPistolMK80Amethyst
+
+- type: constructionGraph
+  id: PistolSU6Construct
+  start: start
+  graph:
+  - node: start
+    entity: RMCWeaponPistolSU6
+    edges:
+    - to: phantom
+      steps:
+      - tag: SprayPhantom
+        doAfter: 2
+  - node: phantom
+    entity: StoriesWeaponPistolSU6Phantom
+
+- type: constructionGraph
+  id: SmartGunConstruct
+  start: start
+  graph:
+  - node: start
+    entity: RMCSmartGun
+    edges:
+    - to: impulse
+      steps:
+      - tag: SprayImpulse
+        doAfter: 2
+  - node: impulse
+    entity: StoriesSmartGunImpulse
+
+- type: constructionGraph
+  id: WeaponLauncherM5ATLConstruct
+  start: start
+  graph:
+  - node: start
+    entity: RMCWeaponLauncherM5ATL
+    edges:
+    - to: bombardier
+      steps:
+      - tag: SprayBombardier
+        doAfter: 2
+  - node: bombardier
+    entity: StoriesWeaponLauncherM5ATLBombardier
+
+- type: constructionGraph
+  id: SniperRifleM96SConstruct
+  start: start
+  graph:
+  - node: start
+    entity: CMM96SSniperRifle
+    edges:
+    - to: tiger
+      steps:
+      - tag: SprayTiger
+        doAfter: 2
+  - node: tiger
+    entity: StoriesM96SSniperRifleTiger
+
+- type: constructionGraph
+  id: XM43E1SniperRifleConstruct
+  start: start
+  graph:
+  - node: start
+    entity: CMXM43E1SniperRifle
+    edges:
+    - to: goldenAutumn
+      steps:
+      - tag: SprayGoldenAutumn
+        doAfter: 2
+  - node: goldenAutumn
+    entity: StoriesXM43E1SniperRifleGoldenAutumn
+
+- type: constructionGraph
+  id: WeaponLauncherM83Construct
+  start: start
+  graph:
+  - node: start
+    entity: WeaponLauncherM83
+    edges:
+    - to: pacifist
+      steps:
+      - tag: SprayPacifist
+        doAfter: 2
+  - node: pacifist
+    entity: StoriesWeaponLauncherM83Pacifist

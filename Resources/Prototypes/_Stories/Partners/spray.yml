@@ -1,0 +1,181 @@
+- type: entity
+  id: StoriesSprayBloodyParty
+  parent: BaseItem
+  name: spray (Bloody Party - M42A2)
+  suffix: BloodyParty
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: bloodyParty
+  - type: Tag
+    tags:
+    - SprayBloodyParty
+
+- type: entity
+  id: StoriesSprayPhoenix
+  parent: BaseItem
+  name: spray (Phoenix - M54C)
+  suffix: Phoenix
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: phoenix
+  - type: Tag
+    tags:
+    - SprayPhoenix
+
+- type: entity
+  id: StoriesSprayAngelOfDeath
+  parent: BaseItem
+  name: spray (Angel Of Death - M4SPR)
+  suffix: AngelOfDeath
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: angelOfDeath
+  - type: Tag
+    tags:
+    - SprayAngelOfDeath
+
+- type: entity
+  id: StoriesSprayToxic
+  parent: BaseItem
+  name: spray (Toxic - M63)
+  suffix: Toxic
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: toxic
+  - type: Tag
+    tags:
+    - SprayToxic
+
+- type: entity
+  id: StoriesSprayGoldRush
+  parent: BaseItem
+  name: spray (Gold Rush - M44)
+  suffix: GoldRush
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: goldRush
+  - type: Tag
+    tags:
+    - SprayGoldRush
+
+- type: entity
+  id: StoriesSprayFate
+  parent: BaseItem
+  name: spray (Fate - M77)
+  suffix: Fate
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: fate
+  - type: Tag
+    tags:
+    - SprayFate
+
+- type: entity
+  id: StoriesSprayRust
+  parent: BaseItem
+  name: spray (Rust - M1984)
+  suffix: Rust
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: rust
+  - type: Tag
+    tags:
+    - SprayRust
+
+- type: entity
+  id: StoriesSprayAmethyst
+  parent: BaseItem
+  name: spray (Amethyst - MK80)
+  suffix: Amethyst
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: amethyst
+  - type: Tag
+    tags:
+    - SprayAmethyst
+
+- type: entity
+  id: StoriesSprayPhantom
+  parent: BaseItem
+  name: spray (Phantom - SU6)
+  suffix: Phantom
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: phantom
+  - type: Tag
+    tags:
+    - SprayPhantom
+
+- type: entity
+  id: StoriesSprayImpulse
+  parent: BaseItem
+  name: spray (SmartGun - Impulse)
+  suffix: Impulse
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: impulse
+  - type: Tag
+    tags:
+    - SprayImpulse
+
+- type: entity
+  id: StoriesSprayBombardier
+  parent: BaseItem
+  name: spray (Bombardier - M5-ATL)
+  suffix: Bombardier
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: bombardier
+  - type: Tag
+    tags:
+    - SprayBombardier
+
+- type: entity
+  id: StoriesSprayTiger
+  parent: BaseItem
+  name: spray (Tiger - M96S)
+  suffix: Tiger
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: tiger
+  - type: Tag
+    tags:
+    - SprayTiger
+
+- type: entity
+  id: StoriesSprayGoldenAutumn
+  parent: BaseItem
+  name: spray (GoldenAutumn - XM43E1)
+  suffix: GoldenAutumn
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: goldenAutumn
+  - type: Tag
+    tags:
+    - SprayGoldenAutumn
+
+- type: entity
+  id: StoriesSprayPacifist
+  parent: BaseItem
+  name: spray (Pacifist - M83)
+  suffix: Pacifist
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/sprays.rsi
+    state: pacifist
+  - type: Tag
+    tags:
+    - SprayPacifist

@@ -34,6 +34,9 @@ public sealed class SponsorInfo
 
     [JsonPropertyName("ghostSkin")]
     public string GhostSkin { get; set; } = "MobObserver";
+
+    [JsonPropertyName("sponsorPoints")]
+    public int SponsorPoints { get; set; } = 0;
 }
 
 

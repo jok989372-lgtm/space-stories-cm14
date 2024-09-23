@@ -58,3 +58,6 @@
   - type: Scope
     zoom: 1.25 # TODO RMC14 2x and 4x zoom
     requireWielding: true
+  - type: Construction
+    graph: XM43E1SniperRifleConstruct
+    node: start

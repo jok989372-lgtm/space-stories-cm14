@@ -96,6 +96,9 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-rail: 0.0, 0.185
+  - type: Construction
+    graph: WeaponLauncherM83Construct
+    node: start
 
 - type: entity
   name: M79 grenade launcher
@@ -211,3 +214,6 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-rail: -0.12, 0.1
+  - type: Construction
+    graph: WeaponLauncherM5ATLConstruct
+    node: start

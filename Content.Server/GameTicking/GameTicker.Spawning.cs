@@ -1,12 +1,14 @@
 using System.Globalization;
 using System.Linq;
 using System.Numerics;
+using Content.Server._Stories.Sponsors;
 using Content.Server.Administration.Managers;
 using Content.Server.GameTicking.Events;
 using Content.Server.Ghost;
 using Content.Server.Spawners.Components;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
+using Content.Shared._RMC14.Vendors;
 using Content.Shared.Database;
 using Content.Shared.Mind;
 using Content.Shared.Players;
@@ -14,6 +16,7 @@ using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
 using JetBrains.Annotations;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
@@ -28,6 +31,9 @@ namespace Content.Server.GameTicking
     {
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly SharedJobSystem _jobs = default!;
+        [Dependency] private readonly IEntityManager _entities = default!; // Stories-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorManager = default!; // Stories-Sponsors
+        [Dependency] private readonly SharedCMAutomatedVendorSystem _automatedVendor = default!; // Stories-Sponsors
 
         [ValidatePrototypeId<EntityPrototype>]
         public const string ObserverPrototypeName = "MobObserver";
@@ -281,6 +287,12 @@ namespace Content.Server.GameTicking
                     Loc.GetString("job-greet-planet-name", ("planetName",_distressSignal.SelectedPlanetMapName)));
             }
 
+            if (_entities.TryGetComponent(mob, out CMVendorUserComponent? vendorUser)
+                && _sponsorManager.TryGetInfo(player.UserId, out var info)
+                && info.SponsorPoints != null)
+            {
+                _automatedVendor.SetExtraPoints((mob, vendorUser), "Sponsor", info.SponsorPoints);
+            }
 
             // Arrivals is unable to do this during spawning as no actor is attached yet.
             // We also want this message last.

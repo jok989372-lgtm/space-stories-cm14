@@ -132,6 +132,9 @@
       rmc-aslot-barrel: 0.71, 0.095
       rmc-aslot-rail: -0.065, 0.125
       rmc-aslot-underbarrel: 0.312, -0.25
+  - type: Construction
+    graph: PistolM1984Construct
+    node: start
 
 - type: entity
   parent: CMWeaponPistolBase
@@ -208,6 +211,9 @@
       rmc-aslot-barrel: 0.625, 0.125
       rmc-aslot-rail: -0.03, 0.185
       rmc-aslot-underbarrel: 0.31, -0.186
+  - type: Construction
+    graph: PistolM77Construct
+    node: start
 
 - type: entity
   parent: CMWeaponPistolBase
@@ -287,6 +293,9 @@
     tags:
     - Sidearm
     - RMCMK80
+  - type: Construction
+    graph: PistolMK80Construct
+    node: start
 
 - type: entity
   parent: CMWeaponPistolBase
@@ -353,3 +362,6 @@
       rmc-aslot-barrel: 0.65, 0.09375
       rmc-aslot-rail: -0.15625, 0.15625
       rmc-aslot-underbarrel: 0.25, -0.3125
+  - type: Construction
+    graph: PistolSU6Construct
+    node: start
