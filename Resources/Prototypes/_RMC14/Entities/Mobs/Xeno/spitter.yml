@@ -49,8 +49,8 @@
   - type: XenoEvolution
     max: 540
     evolvesTo:
-    - CMXenoPraetorian
     - CMXenoBoiler
+    - CMXenoPraetorian
   - type: XenoSpit
   - type: XenoChargeSpit
   - type: XenoScatteredSpit
