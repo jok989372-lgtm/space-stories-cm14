@@ -72,6 +72,9 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-underbarrel: 0.21875, -0.343
+  - type: Construction
+    graph: SniperRifleM96SConstruct
+    node: start
 
 - type: entity
   parent: BaseMagazineRifle

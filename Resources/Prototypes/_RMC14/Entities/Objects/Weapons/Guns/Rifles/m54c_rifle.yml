@@ -91,6 +91,9 @@
       rmc-aslot-rail: 0.06, 0.185
       rmc-aslot-stock: -0.84, 0.0325
       rmc-aslot-underbarrel: 0.25, -0.343
+  - type: Construction
+    graph: RifleM54CConstruct
+    node: start
 
 - type: entity
   parent: CMMagazineRifleBase

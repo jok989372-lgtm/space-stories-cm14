@@ -65,6 +65,9 @@
       rmc-aslot-rail: -0.12, 0.1
   - type: IgnorePredictionHide
   - type: GunIgnorePrediction
+  - type: Construction
+    graph: WeaponLauncherM5ATLConstruct
+    node: start
 
 # 84mm HE
 - type: entity

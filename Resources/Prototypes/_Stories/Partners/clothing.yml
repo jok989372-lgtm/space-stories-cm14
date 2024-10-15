@@ -1,0 +1,53 @@
+- type: entity
+  parent: ArmorHelmetM10
+  id: StoriesArmorHelmetM10MPKilla0
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/Head/killa_0.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/Head/killa_0.rsi
+
+- type: entity
+  parent: ArmorHelmetM10
+  id: StoriesArmorHelmetM10MPKilla1
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/Head/killa_1.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/Head/killa_1.rsi
+
+- type: entity
+  parent: ArmorHelmetM10
+  id: StoriesArmorHelmetM10MPKilla2
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/Head/killa_2.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/Head/killa_2.rsi
+
+- type: entity
+  parent: CMArmorM3Medium
+  id: StoriesArmorM3MediumKilla
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/OuterClothing/killa.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/OuterClothing/killa.rsi
+
+- type: entity
+  parent: CMJumpsuitMarineFormal
+  id: StoriesJumpsuitMarineFormalKilla0
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/Uniforms/killa_0.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/Uniforms/killa_0.rsi
+
+- type: entity
+  parent: CMJumpsuitMarineFormal
+  id: StoriesJumpsuitMarineFormalKilla1
+  components:
+  - type: Sprite
+    sprite: _Stories/Partners/Clothing/Uniforms/killa_1.rsi
+  - type: Clothing
+    sprite: _Stories/Partners/Clothing/Uniforms/killa_1.rsi

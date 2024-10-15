@@ -37,6 +37,9 @@ public sealed class SponsorInfo
 
     [JsonPropertyName("sponsorPoints")]
     public int SponsorPoints { get; set; } = 0;
+
+    [JsonPropertyName("sponsorPointsAlt")]
+    public int SponsorPointsAlt { get; set; } = 0;
 }
 
 

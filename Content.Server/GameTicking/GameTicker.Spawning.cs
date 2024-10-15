@@ -289,9 +289,10 @@ namespace Content.Server.GameTicking
 
             if (_entities.TryGetComponent(mob, out CMVendorUserComponent? vendorUser)
                 && _sponsorManager.TryGetInfo(player.UserId, out var info)
-                && info.SponsorPoints != null)
+                && (info.SponsorPoints != null || info.SponsorPointsAlt != null))
             {
                 _automatedVendor.SetExtraPoints((mob, vendorUser), "Sponsor", info.SponsorPoints);
+                _automatedVendor.SetExtraPoints((mob, vendorUser), "SponsorAlt", info.SponsorPointsAlt);
             }
 
             // Arrivals is unable to do this during spawning as no actor is attached yet.

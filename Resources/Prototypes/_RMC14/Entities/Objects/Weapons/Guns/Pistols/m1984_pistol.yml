@@ -48,6 +48,9 @@
       rmc-aslot-barrel: 0.71, 0.095
       rmc-aslot-rail: -0.065, 0.125
       rmc-aslot-underbarrel: 0.312, -0.25
+  - type: Construction
+    graph: PistolM1984Construct
+    node: start
 
 - type: entity
   parent: CMBaseMagazinePistol

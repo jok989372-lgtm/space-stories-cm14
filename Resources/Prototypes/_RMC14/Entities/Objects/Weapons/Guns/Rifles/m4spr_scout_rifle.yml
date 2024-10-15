@@ -85,6 +85,9 @@
           - CMMagazineRifleM4SPRExt
           - RMCMagazineRifleM4SPRA19
           - RMCMagazineRifleM4SPRA19Impact
+  - type: Construction
+    graph: RifleM4SPRCustomConstruct
+    node: start
 
 - type: entity
   parent: CMMagazineRifleBase

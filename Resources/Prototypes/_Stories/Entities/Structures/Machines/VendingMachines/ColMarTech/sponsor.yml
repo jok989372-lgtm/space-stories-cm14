@@ -39,3 +39,33 @@
         points: 10
       - id: StoriesSprayTiger
         points: 7
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSponsorAlt
+  name: ColMarTech automated uniform rack
+  description: An automated uniform rack hooked up to a big storage of standard-issue uniform.
+  components:
+  - type: Sprite
+    sprite: _Stories/Structures/Machines/VendingMachines/ColMarTech/sponsor.rsi
+  - type: CMAutomatedVendor
+    pointsType: SponsorAlt
+    sections:
+    - name: Униформа
+      entries:
+      - id: StoriesJumpsuitMarineFormalKilla0
+        points: 2
+      - id: StoriesJumpsuitMarineFormalKilla1
+        points: 2
+    - name: Шлем
+      entries:
+      - id: StoriesArmorHelmetM10MPKilla0
+        points: 3
+      - id: StoriesArmorHelmetM10MPKilla1
+        points: 3
+      - id: StoriesArmorHelmetM10MPKilla2
+        points: 3
+    - name: Броня
+      entries:
+      - id: StoriesArmorM3MediumKilla
+        points: 3

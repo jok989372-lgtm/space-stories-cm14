@@ -76,6 +76,9 @@
     tags:
     - Sidearm
     - RMCMK80
+  - type: Construction
+    graph: PistolMK80Construct
+    node: start
 
 - type: entity
   parent: CMBaseMagazinePistol
