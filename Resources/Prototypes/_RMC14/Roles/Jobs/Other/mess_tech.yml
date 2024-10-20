@@ -26,7 +26,6 @@
         RMCSkillDomestics: 2
         RMCSkillEngineer: 1
         RMCSkillFirearms: 2
-        RMCSkillFireman: 1
 
 - type: startingGear
   id: CMGearMessTech

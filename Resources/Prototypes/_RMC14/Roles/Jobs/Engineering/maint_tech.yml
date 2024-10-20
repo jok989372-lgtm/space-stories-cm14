@@ -26,7 +26,6 @@
         RMCSkillConstruction: 3
         RMCSkillEngineer: 3
         RMCSkillFirearms: 1
-        RMCSkillFireman: 1
         RMCSkillPowerLoader: 2
 
 - type: startingGear
