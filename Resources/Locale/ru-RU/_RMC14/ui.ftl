@@ -57,5 +57,6 @@ rmc-ui-shoutout-xeno = [bold]Улей, основаный [color=purple]{ $name 
 rmc-ui-discord = Дискорд
 rmc-ui-patreon = Boosty
 rmc-other-credits-tab = Другое
+rmc-ui-auto-punctuate = Автоматически расставляйте знаки препинания в символьных сообщениях
 cm-ui-audio-humanoid-voicelines = Воспроизводить голоса
 cm-ui-roadmap = Дорожная карта
