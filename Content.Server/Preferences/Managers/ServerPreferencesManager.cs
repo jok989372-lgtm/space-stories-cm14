@@ -37,7 +37,7 @@ namespace Content.Server.Preferences.Managers
 
         private ISawmill _sawmill = default!;
 
-        // private int MaxCharacterSlots => _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
+        private int MaxCharacterSlots => _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
 
         public void Init()
         {
@@ -59,7 +59,7 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (index < 0 || index >= GetMaxUserCharacterSlots(userId)) // Stories-Sponsors
+            if (index < 0 || index >= MaxCharacterSlots)
             {
                 return;
             }
@@ -99,7 +99,7 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= GetMaxUserCharacterSlots(userId)) // Stories-Sponsors
+            if (slot < 0 || slot >= MaxCharacterSlots)
                 return;
 
             var curPrefs = prefsData.Prefs!;
@@ -129,7 +129,7 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= GetMaxUserCharacterSlots(userId)) // Stories-Sponsors
+            if (slot < 0 || slot >= MaxCharacterSlots)
             {
                 return;
             }
@@ -217,7 +217,7 @@ namespace Content.Server.Preferences.Managers
             msg.Preferences = prefsData.Prefs;
             msg.Settings = new GameSettings
             {
-                MaxCharacterSlots = GetMaxUserCharacterSlots(session.UserId),  // Stories-Sponsors
+                MaxCharacterSlots = MaxCharacterSlots
             };
             _netManager.ServerSendMessage(msg, session.Channel);
         }
@@ -232,14 +232,6 @@ namespace Content.Server.Preferences.Managers
             return _cachedPlayerPrefs.ContainsKey(session.UserId);
         }
 
-        // Stories-Sponsors-Start: Calculate total available users slots with sponsors
-        private int GetMaxUserCharacterSlots(NetUserId userId)
-        {
-            var maxSlots = _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
-            var extraSlots = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.ExtraSlots : 0;
-            return maxSlots + extraSlots;
-        }
-        // Stories-Sponsors-End
 
         /// <summary>
         /// Tries to get the preferences from the cache
