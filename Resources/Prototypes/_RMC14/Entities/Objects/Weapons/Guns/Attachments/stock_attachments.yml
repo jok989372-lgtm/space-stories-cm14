@@ -301,12 +301,7 @@
       scatterFlat: 6
   - type: Appearance
   - type: ItemCamouflage
-    camouflageVariations:
-      Jungle: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/jungle.rsi
-      Desert: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/desert.rsi
-      Snow: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/snow.rsi
-      Classic: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/classic.rsi
-      Urban: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/urban.rsi
+    camouflageVariations: {}
 
 - type: entity
   parent: RMCAttachmentM54CStockSolid
