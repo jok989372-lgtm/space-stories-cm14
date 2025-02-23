@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using Content.Shared._Stories.AntiGrief.Cadet;
 using Content.Shared._RMC14.Atmos;
 using Content.Shared._RMC14.Fluids;
 using Content.Shared._RMC14.Line;
@@ -202,6 +203,14 @@ public abstract class SharedRMCFlamerSystem : EntitySystem
         EntityCoordinates fromCoordinates,
         EntityCoordinates toCoordinates)
     {
+        if (HasComp<CadetComponent>(user))
+        {
+            var popup = Loc.GetString("stories-cadet-flamer-use");
+            _popup.PopupClient(popup, user.Value, user.Value, PopupType.SmallCaution);
+
+            return;
+        }
+
         if (!TryGetTankSolution(flamer, out var solutionEnt))
             return;
 
