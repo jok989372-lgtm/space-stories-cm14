@@ -15,6 +15,7 @@ stamp-component-stamped-name-cm-aso = Офицер Вспомогательно�
 stamp-component-stamped-name-cm-cmp = Начальник Военной Полиции
 stamp-component-stamped-name-cm-cmo = Главный Медицинский Офицер
 stamp-component-stamped-name-cm-cl = Корпоративный связной
+stamp-component-stamped-name-cm-mw = Военный Надзиратель
 stamp-component-stamped-name-cm-qm = Квартирмейстер
 stamp-component-stamped-name-cm-ce = Главный Инженер
 stamp-component-stamped-name-cm-approve = ОДОБРЕННО

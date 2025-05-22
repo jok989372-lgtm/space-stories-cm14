@@ -1,0 +1,31 @@
+rmc-ghost-role-information-spp-rules =
+    Вы являетесь [color=red][bold]членом СПН[/bold][/color]. Вы можете быть или не быть враждебны к морпехам, в зависимости от указаний администрации.
+    Вы не помните ничего из своей прошлой жизни и ничего, что узнали, будучи призраком.
+    Вам разрешено помнить общие знания об игре, например, как готовить, как использовать предметы и т.д.
+    Вам абсолютно [color=red]НЕ[/color] разрешено помнить, скажем, имя, внешность и т.д. вашего предыдущего персонажа.
+rmc-ghost-role-information-spp-friendly-description = Оказывайте помощь силам ООН, слушайте своих старших офицеров.
+rmc-ghost-role-information-spp-hostile-description = Уничтожьте силы ООН, чтобы обеспечить дальнейшее присутствие СПН в этом секторе. Слушайте своих старших офицеров и захватите основной корабль UNS любой ценой.
+rmc-ghost-name-spp-hostile-leader = Командир отряда СПН (Враждебный)
+rmc-ghost-name-spp-friendly-leader = Командир отряда СПН (Дружественный)
+rmc-job-name-spp-leader = Старший сержант
+rmc-job-prefix-spp-leader = СС
+rmc-ghost-name-spp-hostile-specialist = Специалист отряда СПН (Враждебный)
+rmc-ghost-name-spp-friendly-specialist = Специалист отряда СПН (Дружественный)
+rmc-job-name-spp-specialist = Сержант
+rmc-job-prefix-spp-specialist = СПЦ
+rmc-ghost-name-spp-hostile-rifleman = Призывник отряда СПН (Враждебный)
+rmc-ghost-name-spp-friendly-rifleman = Призывник отряда СПН (Дружественный)
+rmc-job-name-spp-rifleman = Призывник
+rmc-job-prefix-spp-rifleman = ПЗВ
+rmc-ghost-name-spp-hostile-engineer = Сапер отряда СПН (Враждебный)
+rmc-ghost-name-spp-friendly-engineer = Сапер отряда СПН (Дружественный)
+rmc-job-name-spp-engineer = Младший сержант (Инженер)
+rmc-job-prefix-spp-engineer = САП
+rmc-ghost-name-spp-hostile-medic = Медик отряда СПН (Враждебный)
+rmc-ghost-name-spp-friendly-medic = Медик отряда СПН (Дружественный)
+rmc-job-name-spp-medic = Младший сержант (Медик)
+rmc-job-prefix-spp-medic = МЕД
+rmc-ghost-name-spp-hostile-mp = Военный полицейский СПН (Враждебный)
+rmc-ghost-name-spp-friendly-mp = Военный полицейский СПН (Дружественный)
+rmc-job-name-spp-mp = Военная полиция
+rmc-job-prefix-spp-mp = ВП

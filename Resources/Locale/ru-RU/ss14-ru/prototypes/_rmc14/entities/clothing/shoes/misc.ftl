@@ -9,3 +9,7 @@ ent-RMCShoesJackbootsFilled = { ent-RMCItemSlotM5Bayonet }
     .desc = { ent-RMCItemSlotM5Bayonet.desc }
 ent-RMCShoesPrisoner = обувь для заключенных
     .desc = Пара оранжевых ботинок, которые носят заключенные в соответствии с морскими законами.
+ent-RMCShoesGaloshes = галоши
+    .desc = Пара резиновых сапог.
+ent-RMCShoesWeYaStompers = топталки Вестона-Ямады
+    .desc = Пара кроссовок, призванных вызывать подъем боевого духа у каждого, кто их увидит.

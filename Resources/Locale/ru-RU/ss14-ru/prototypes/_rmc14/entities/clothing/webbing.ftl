@@ -47,3 +47,6 @@ ent-RMCWebbingBuckshot = { ent-CMWebbingBlack }
 ent-CMWebbingPouchRoyal = { ent-CMWebbingPouch }
     .suffix = Заполненный, Королевские
     .desc = { ent-CMWebbingPouch.desc }
+ent-RMCWebbingPouchForecon = { ent-CMWebbingPouch }
+    .suffix = Заполненный, ФОРЕКОН
+    .desc = { ent-CMWebbingPouch.desc }

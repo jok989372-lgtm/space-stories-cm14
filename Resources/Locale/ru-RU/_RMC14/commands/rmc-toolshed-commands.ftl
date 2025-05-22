@@ -47,5 +47,6 @@ command-description-weedkiller = Запускает средство для ун
 command-description-marinesperxeno-get = Получает начальное соотношение пехотинцев на ксеноса на определенной карте.
 command-description-spawnallmapinserts = Спавнит все вставки на карте с принудительной гарантированной вероятностью спавна.
 command-description-rmcresetahelptracking = Сбрасывает все данные об отслеживаемых разговорах AHelp в Discord. Полезно для случаев, когда AHelp не отображаются в ретрансляторе Discord должным образом.
+command-description-hijack-trigger = Запускает захват на карте, на которой вы находитесь в данный момент.
 command-description-marinesperxeno-set = Устанавливает начальное соотношение морпехов к ксеносам на определенной карте.
 command-description-withxenotier = Фильтрует сущности или прототипы сущностей до тех, которые относятся к определенному уровню ксенонидов.

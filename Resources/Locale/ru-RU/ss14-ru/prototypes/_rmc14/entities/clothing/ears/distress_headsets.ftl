@@ -1,5 +1,7 @@
 ent-CMHeadsetColony = гарнитура колоний
     .desc = Стандартная гарнитура, используемая колонистами.
+ent-RMCHeadsetColonyIcons = гарнитура колоний
+    .desc = Стандартная гарнитура, используемая колонистами.
 ent-RMCHeadsetDistressBureau = наушник бюро
     .desc = Элегантная гарнитура, используемый Колониальным бюро маршалов, изготовлен в Соле. Низкопрофильная и удобная. Никто не может быть выше закона.
 ent-RMCHeadsetDistressWeYa = корпоративная гарнитура WeYa
@@ -16,5 +18,7 @@ ent-RMCHeadsetDistressDukes = гарнитура герцогская дюжин
     .desc = Специальная гарнитура, используемая небольшими группами подготовленных оперативников. Или террористами.
 ent-RMCHeadsetDistressDukesLeader = { ent-RMCHeadsetDistressDukes }
     .desc = { ent-RMCHeadsetDistressDukes.desc }
+ent-RMCHeadsetForecon = гарнитура ФОРЕКОН
+    .desc = Гарнитура, выдаваемая морским пехотинцам ФОРЕКОН.
 ent-RMCHeadsetDistressFreelancer = гарнитура фрилансера
     .desc = Специальная гарнитура, используемая небольшими группами подготовленных оперативников. Или террористами.

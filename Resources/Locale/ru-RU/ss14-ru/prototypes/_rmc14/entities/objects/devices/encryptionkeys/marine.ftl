@@ -14,3 +14,5 @@ ent-CMEncryptionKeyFoxtrot = ключ шифрования фокстрот
     .desc = { ent-CMEncryptionKey.desc }
 ent-CMEncryptionKeySOF = ключ шифрования sof
     .desc = { ent-CMEncryptionKey.desc }
+ent-RMCEncryptionKeyFORECON = ключ шифрования форекон
+    .desc = { ent-CMEncryptionKey.desc }

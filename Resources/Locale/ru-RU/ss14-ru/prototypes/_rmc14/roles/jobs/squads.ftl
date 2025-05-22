@@ -24,5 +24,7 @@ ent-SquadRoyalMarines = Королевские морпехи
     .desc = { ent-SquadBase.desc }
 ent-SquadProvost = Провост
     .desc = { ent-SquadBase.desc }
+ent-SquadFORECON = Разведка
+    .desc = { ent-SquadBase.desc }
 ent-SquadSOF = СОС
     .desc = { ent-SquadBase.desc }

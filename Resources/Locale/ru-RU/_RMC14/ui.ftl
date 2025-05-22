@@ -1,4 +1,6 @@
 cm-ui-rmc14 = RMC14
+rmc-ui-options-cassettes-volume = Громкость кассет:
+rmc-ui-options-hijack-song-volume = Громкость песен захвата:
 rmc-ui-voicelines = Голосовые реплики
 rmc-ui-options-tab-voicelines = Голосовые реплики
 rmc-ui-audio-voicelines-yourself = Проигрывать свои голосовые реплики
