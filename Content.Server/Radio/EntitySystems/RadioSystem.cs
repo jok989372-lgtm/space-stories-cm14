@@ -26,6 +26,7 @@ using Content.Shared._Stories.TTS;
 using Robust.Shared.Enums;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Linq;
 using Content.Shared._Stories.SCCVars;
 using Robust.Shared.Configuration;
 
@@ -91,20 +92,17 @@ public sealed class RadioSystem : EntitySystem
             return;
 
         _netMan.ServerSendMessage(args.ChatMsg, playerSession.Channel);
-
-        if (Exists(args.MessageSource))
-            TryPlayRadioTtsAsync(args.MessageSource, args.Message, args.Channel, playerSession);
     }
 
-    public async void TryPlayRadioTtsAsync(EntityUid sourceUid, string message, RadioChannelPrototype channel, ICommonSession playerSession)
+    private async void ProcessAndSendRadioTts(EntityUid messageSource, string message, RadioChannelPrototype channel, IEnumerable<ICommonSession> recipients)
     {
         if (!_cfg.GetCVar(SCCVars.TTSEnabled))
             return;
 
-        var voiceId = GetVoiceId(sourceUid);
-        var soundData = await _tts.GenerateTTS(message, voiceId, isWhisper: false);
+        var voiceId = GetVoiceId(messageSource);
+        var soundData = await _tts.GenerateTTS(message, voiceId);
 
-        if (soundData == null || playerSession.Status != SessionStatus.InGame)
+        if (soundData == null)
             return;
 
         byte[] processedSoundData;
@@ -117,8 +115,10 @@ public sealed class RadioSystem : EntitySystem
             processedSoundData = await _ttsProcessing.ApplyRadioEffect(soundData);
         }
 
-        var ttsEvent = new PlayTTSEvent(processedSoundData, sourceUid: null, isWhisper: true, originalSourceUid: GetNetEntity(sourceUid));
-        RaiseNetworkEvent(ttsEvent, playerSession);
+        var ttsEvent = new PlayTTSEvent(processedSoundData, sourceUid: null, isWhisper: false, originalSourceUid: GetNetEntity(messageSource));
+
+        var filter = Filter.Empty().AddPlayers(recipients.ToList());
+        RaiseNetworkEvent(ttsEvent, filter);
     }
 
     private string GetVoiceId(EntityUid sourceUid)
@@ -218,6 +218,7 @@ public sealed class RadioSystem : EntitySystem
         var hasActiveServer = HasActiveServer(sourceMapId, channel.ID);
         var sourceServerExempt = _exemptQuery.HasComp(radioSource);
 
+        var recipientUids = new List<EntityUid>();
         var radioQuery = EntityQueryEnumerator<ActiveRadioComponent, TransformComponent>();
         while (canSend && radioQuery.MoveNext(out var receiver, out var radio, out var transform))
         {
@@ -245,6 +246,30 @@ public sealed class RadioSystem : EntitySystem
 
             // send the message
             RaiseLocalEvent(receiver, ref ev);
+
+            recipientUids.Add(receiver);
+        }
+
+        if (canSend && recipientUids.Count > 0)
+        {
+            var sessions = new List<ICommonSession>();
+            var actorQuery = GetEntityQuery<ActorComponent>();
+            foreach (var uid in recipientUids)
+            {
+                var parent = Transform(uid).ParentUid;
+                var target = actorQuery.HasComponent(uid) ? uid : (actorQuery.HasComponent(parent) ? parent : (EntityUid?) null);
+
+                if (target.HasValue && actorQuery.TryGetComponent(target.Value, out var actor))
+                {
+                    if (actor.PlayerSession.Status == SessionStatus.InGame)
+                        sessions.Add(actor.PlayerSession);
+                }
+            }
+
+            if (sessions.Count > 0)
+            {
+                ProcessAndSendRadioTts(messageSource, message, channel, sessions);
+            }
         }
 
         if (canSend && _cfg.GetCVar(SCCVars.TTSEnabled) &&

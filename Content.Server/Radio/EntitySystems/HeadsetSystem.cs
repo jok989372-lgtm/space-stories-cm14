@@ -110,11 +110,6 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
             return;
 
         _netMan.ServerSendMessage(args.ChatMsg, playerSession.Channel);
-
-        if (Exists(args.MessageSource))
-        {
-            _radio.TryPlayRadioTtsAsync(args.MessageSource, args.Message, args.Channel, playerSession);
-        }
     }
 
     private void OnEmpPulse(EntityUid uid, HeadsetComponent component, ref EmpPulseEvent args)
