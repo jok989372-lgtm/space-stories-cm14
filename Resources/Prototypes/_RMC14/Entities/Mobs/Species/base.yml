@@ -353,6 +353,7 @@
       - KeycardDevice
       - CMAutomatedVendor
       - FaxMachine
+      - RMCDoorButton
       tags:
       - RMCDropshipEnginePoint
     range: 1.8

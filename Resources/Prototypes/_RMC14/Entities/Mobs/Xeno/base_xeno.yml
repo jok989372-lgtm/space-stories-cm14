@@ -394,6 +394,13 @@
   - type: EmoteCooldown
   - type: TTS # Stories-TTS
     voice: clinkz_dota_2
+  - type: IgnoreInteractionRange
+    whitelist:
+      components:
+      - Corrodible
+      - DeletedByWeedKiller
+      - Xeno
+    range: 1.5
 
 - type: entity
   abstract: true
