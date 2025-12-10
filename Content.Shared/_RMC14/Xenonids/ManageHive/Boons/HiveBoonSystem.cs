@@ -501,6 +501,12 @@ public sealed class HiveBoonSystem : EntitySystem
             return;
         }
 
+        if (boonProto.ID == KingBoonId) // Stories-King-Temp-Remove
+        {
+            _popup.PopupCursor("Создание Короля временно отключено.", manage, PopupType.MediumCaution);
+            return;
+        }
+
         if (_hive.GetHive(manage.Owner) is not { } hive)
             return;
 
