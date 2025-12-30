@@ -97,6 +97,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Collections;
 using Robust.Shared.Configuration;
 using Robust.Shared.EntitySerialization.Systems;
+using Robust.Shared.Timing;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -1971,15 +1972,25 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
                 }
 
                 var ares = _ares.EnsureARES();
+
                 _marineAnnounce.AnnounceRadio(ares,
-                    "Bioscan complete. No unknown lifeform signature detected.",
+                    Loc.GetString("rmc-distress-signal-major-marine-victory-bioscan"),
                     rule.AllClearChannel);
-                _marineAnnounce.AnnounceRadio(ares,
-                    "Saving operational report to archive.",
-                    rule.AllClearChannel);
-                _marineAnnounce.AnnounceRadio(ares,
-                    "Commencing final systems scan in 3 minutes.",
-                    rule.AllClearChannel);
+
+                Timer.Spawn(TimeSpan.FromSeconds(5), () =>
+                {
+                    _marineAnnounce.AnnounceRadio(ares,
+                        Loc.GetString("rmc-distress-signal-major-marine-victory-report"),
+                        rule.AllClearChannel);
+                });
+
+                Timer.Spawn(TimeSpan.FromSeconds(10), () =>
+                {
+                    _marineAnnounce.AnnounceRadio(ares,
+                        Loc.GetString("rmc-distress-signal-major-marine-victory-scan"),
+                        rule.AllClearChannel);
+                });
+
                 rule.EndAtAllClear ??= Timing.CurTime + rule.AllClearEndDelay;
                 break;
             default:

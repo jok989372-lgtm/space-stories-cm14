@@ -31,3 +31,7 @@ cm-distress-signal-jellies = Royal Jelly Awards:
 rmc-distress-signal-got-medal = {$receiver} is awarded the {$award}: '{$awardDescription}'
 
 rmc-distress-signal-got-jelly = {$receiver} is awarded the {$award}: '{$awardDescription}' by {$giver}
+
+rmc-distress-signal-major-marine-victory-bioscan = Bioscan complete. No unknown lifeform signature detected.
+rmc-distress-signal-major-marine-victory-report = Saving operational report to archive.
+rmc-distress-signal-major-marine-victory-scan = Commencing final systems scan in 3 minutes.
