@@ -119,4 +119,4 @@ rmc-xeno-designer-thicken-success = Мы загущаем смолу.
 rmc-xeno-designer-greater-surge-cooldown = Нам нужно подождать, прежде чем снова использовать усиленный всплеск смолы
 rmc-xeno-designer-greater-surge-none = Поблизости нет узлов дизайнера.
 rmc-xeno-designer-greater-surge-success = Мы преобразовали { $count } узлов дизайнера в толстые стенки из смолы.
-rmc-xeno-designer-infuse-node = You infuse the node with plasma.
+rmc-xeno-designer-infuse-node = Вы вводите плазму в лимфатический узел.

@@ -1,5 +1,5 @@
 ent-CMApcBase = зональный контроллер питания
-    .desc = A control terminal for the area electrical systems.
+    .desc = Терминал управления электрическими системами данного участка.
 ent-CMApcFrame = { ent-APCFrame }
     .desc = { ent-APCFrame.desc }
 ent-CMApcConstructed = { ent-CMApcBase }

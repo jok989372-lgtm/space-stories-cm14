@@ -1,10 +1,10 @@
 ent-RMCAreaCorsat = КОРСАТ
     .desc = { ent-RMCAreaBase.desc }
     .suffix = Зона КОРСАТ
-ent-RMCAreaCorsatLandingConsole = Зона высадки 1 «Гамма»
+ent-RMCAreaCorsatLandingConsole = Зона высадки 1 "Гамма"
     .desc = { ent-RMCAreaCorsat.desc }
     .suffix = { ent-RMCAreaCorsat.suffix }
-ent-RMCAreaCorsatLandingConsole2 = Зона высадки 2 «Сигма»
+ent-RMCAreaCorsatLandingConsole2 = Зона высадки 2 "Сигма"
     .desc = { ent-RMCAreaCorsat.desc }
     .suffix = { ent-RMCAreaCorsat.suffix }
 ent-RMCAreaCorsatEmergencyAccess = Неизвестная зона

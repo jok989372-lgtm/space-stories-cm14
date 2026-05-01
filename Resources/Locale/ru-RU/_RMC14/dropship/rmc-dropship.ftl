@@ -61,8 +61,8 @@ rmc-dropship-weapons-night-vision-off = НВ-ВЫКЛ
 
 rmc-dropship-weapons-weapon = ОРУЖ
 
-rmc-dropship-weapons-previous = ^
-rmc-dropship-weapons-next = v
+rmc-dropship-weapons-previous = ▲
+rmc-dropship-weapons-next = ▼
 
 rmc-dropship-weapons-fire-no-weapon = Оружие не выбрано.
 rmc-dropship-weapons-fire-not-flying = Шаттлы могут вести огонь только в полете.
@@ -104,7 +104,7 @@ rmc-dropship-paradrop-target-screen-target-targeting = Захвачена цел
 rmc-dropship-paradrop-lock-no-target = Цель не выбрана.
 rmc-dropship-paradrop-lock-target-not-flying = Модуль десантирования можно активировать только в полете.
 
-rmc-dropship-paradrop-failed = Your harness got stuck and is preventing you from jumping
+rmc-dropship-paradrop-failed = Ваша подвесная система застряла и не позволяет вам совершить прыжок.
 
 rmc-dropship-medevac-system-screen-text = Система медицинской эвакуации РМУ-4М
 
@@ -129,11 +129,11 @@ rmc-dropship-equipment-operational = В СТРОЮ
 rmc-dropship-equipment-damaged = ПОВРЕЖДЕНО
 rmc-dropship-equipment-destroyed = УНИЧТОЖЕНО
 
-rmc-dropship-launch-bay-screen-text = LAG-14 Internal Sentry Launcher
-rmc-dropship-launch-bay-screen-text-loaded = LAG-14 Internal Sentry Launcher
+rmc-dropship-launch-bay-screen-text = Внутренняя пусковая установка сторожевого корабля LAG-14
+rmc-dropship-launch-bay-screen-text-loaded = Внутренняя пусковая установка сторожевого корабля LAG-14
 
-    Loaded: { $loaded }
+    Заряжено: { $loaded }
 
-    Ammo: { $current } / { $max }
+    Боеприпасы: { $current } / { $max }
 
-rmc-dropship-launch-alarm-xeno-shutdown = We slash at { $console }, silencing its squawking!
+rmc-dropship-launch-alarm-xeno-shutdown = Мы рубим { $console }, заглушая его визг!

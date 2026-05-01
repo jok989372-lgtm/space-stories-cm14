@@ -1,3 +1,3 @@
-ent-CMSPPSOFCockpit = voron crew hatch
+ent-CMSPPSOFCockpit = люк экипажа Ворона
     .desc = { ent-RMCDropshipCockpitBase.desc }
-    .suffix = Voron
+    .suffix = Ворон

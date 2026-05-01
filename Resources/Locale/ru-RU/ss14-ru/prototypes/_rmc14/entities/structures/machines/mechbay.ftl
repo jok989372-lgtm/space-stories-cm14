@@ -1,3 +1,3 @@
 ent-RMCPropPowerPort = разъем питания инженерного отсека
     .desc = { ent-CMBaseStructure.desc }
-    .suffix = Prop
+    .suffix = Проп

@@ -12,4 +12,4 @@ ent-RMCFloorShallowWaterEntityDarkRed = { ent-RMCFloorShallowWaterEntityRed }
     .suffix = Темно-красный
 ent-RMCFloorShallowWaterEntityBelowPipes = { ent-CMFloorShallowWaterEntity }
     .desc = { ent-CMFloorShallowWaterEntity.desc }
-    .suffix = Below Pipes
+    .suffix = Ниже Труб

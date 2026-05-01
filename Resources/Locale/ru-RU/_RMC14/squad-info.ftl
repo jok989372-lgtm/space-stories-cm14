@@ -28,14 +28,14 @@ rmc-squad-info-SeniorEnlistedAdvisor = Старший сержантский с�
 rmc-squad-info-Quartermaster = Квартирмейстер
 rmc-squad-info-MilitaryWarden = Военный надзиратель
 rmc-squad-info-SectionSergeant = Командир отделения
-rmc-squad-info-PVESquadLeader = Squad Leader
+rmc-squad-info-PVESquadLeader = Командир отряда
 rmc-squad-info-SquadLeader = Командир отряда
 rmc-squad-info-FireteamLeader = Командир огневой группы
 rmc-squad-info-Rifleman = Стрелок
 
 rmc-squad-info-DirectorPmc = Директор
-rmc-squad-info-LeaderPmcPVE = Force Leader
-rmc-squad-info-TeamLeaderPmcPVE = Team Leader
+rmc-squad-info-LeaderPmcPVE = Командир отряда
+rmc-squad-info-TeamLeaderPmcPVE = Командир группы
 rmc-squad-info-LeaderPmc = Командир группы
 rmc-squad-info-CorporateLiaison = Связной с корпорацией
 
@@ -63,15 +63,15 @@ rmc-squad-info-SeniorConstableTSEPA = Старший констебль ИТСП
 
 rmc-squad-info-PrimaryLandingZone = Основная зона высадки
 
-rmc-squad-info-SPPAirborneSL = Airborne Squad Leader
+rmc-squad-info-SPPAirborneSL = Командир воздушно-десантного отряда
 
-rmc-squad-info-RCMPVESectionLead = Section Leader
-rmc-squad-info-RCMPVETeamLead = Team Leader
-rmc-squad-info-RCMPVETroopSergeant = Troop Sergeant
-rmc-squad-info-RCMPVETroopCommander = Troop Commander
+rmc-squad-info-RCMPVESectionLead = Командир взвода
+rmc-squad-info-RCMPVETeamLead = Командир группы
+rmc-squad-info-RCMPVETroopSergeant = Сержант роты
+rmc-squad-info-RCMPVETroopCommander = Командир роты
 
 rmc-squad-info-RCMTeamLead = Командир группы
 rmc-squad-info-RCMLieutenant = Лейтенант
 
-rmc-squad-info-ParaTeamLeader = Team Leader
-rmc-squad-info-ParaCommander = Commander
+rmc-squad-info-ParaTeamLeader = Командир группы
+rmc-squad-info-ParaCommander = Командир

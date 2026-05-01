@@ -65,7 +65,7 @@ ent-ActionXenoSprayAcid = Распылить Кислоту (40)
 ent-RMCGuidebookActionXenoSprayAcid = { ent-CMGuidebookActionXenoBase }
     .desc = { ent-CMGuidebookActionXenoBase.desc }
 ent-ActionXenoSprayAcidBoiler = { ent-ActionXenoSprayAcid }
-    .desc = Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+    .desc = Распыляет кислоту по земле линией, покрывая ею плитки. [color=red]Покрывает баррикады кислотой![/color]
 ent-ActionXenoSprayAcidPraetorian = Распылить Кислоту (80)
     .desc = Распыляет кислоту по земле в виде линии, покрывая ею плитки. [color=red]Покрывает баррикады кислотой![/color]
 ent-ActionXenoSprayAcidWarden = Распылить Кислоту (130)

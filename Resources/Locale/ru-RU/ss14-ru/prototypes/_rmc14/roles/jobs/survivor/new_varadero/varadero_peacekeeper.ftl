@@ -1,5 +1,5 @@
-ent-RMCSpawnPointSurvivorILRCPeacekeeper = survivor ILRC peacekeeper spawn point
+ent-RMCSpawnPointSurvivorILRCPeacekeeper = точка появления выжившего миротворца ИЛРК
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }
-ent-RMCGearSurvivorPresetILRCPeacekeeper = ILRC peacekeeper colonist preset
+ent-RMCGearSurvivorPresetILRCPeacekeeper = пресет миротворца ИЛРК
     .desc = { ent-RMCSurvivorPresetSecurity.desc }

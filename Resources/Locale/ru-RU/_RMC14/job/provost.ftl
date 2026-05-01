@@ -25,8 +25,8 @@ rmc-job-prefix-provost-enforcer = СПР
 rmc-ghost-name-corp-provost-inspector = Инспектор Провост (Дружественный)
 rmc-job-name-corp-provost-inspector = Инспектор Провост
 rmc-job-prefix-provost-inspector = ИПР
-rmc-job-description-inspector = Mentor new MPs, and advise on and investigate matters of Marine Law and conflict resolution aboard the ship, ensuring that Military Police are acting to uphold the intentions of the Provost.
-    Inspectors are a direct line to Provost, and are the final word on Marine Law, even above the Commanding Officer.
+rmc-job-description-inspector = Наставляйте новых военных полицейских, консультируйте и расследуйте вопросы морского права и разрешайте конфликты на борту корабля, обеспечивая, чтобы военная полиция действовала в соответствии с намерениями военной полиции.
+    Инспекторы являются прямыми звеньями связи с военной полицией и имеют решающее слово в вопросах морского права, даже выше командира корабля.
 
 rmc-ghost-name-corp-provost-marshal = Маршал Провост (Дружественный)
 rmc-job-name-corp-provost-marshal = Маршал Провост

@@ -1,4 +1,4 @@
 ent-RMCBoxCardboard = картонная коробка
     .desc = Картонная коробка для хранения вещей.
-ent-RMCBoxAttachmentsFilled = attachment package
-    .desc = A package containing some random attachments. Why not see what's inside?
+ent-RMCBoxAttachmentsFilled = комплект с насадками
+    .desc = Комплект, содержащий случайные насадки. Почему бы не посмотреть, что внутри?

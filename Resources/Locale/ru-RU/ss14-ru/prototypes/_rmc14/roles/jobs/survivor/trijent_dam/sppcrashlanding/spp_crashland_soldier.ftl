@@ -1,3 +1,3 @@
-ent-CMSpawnPointSPPCrashlandRifleman = special survivor spp crashland rifleman spawn point
+ent-CMSpawnPointSPPCrashlandRifleman = точка появления спец. выжившего стрелок ВДВ СПН (крушение)
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

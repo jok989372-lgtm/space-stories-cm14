@@ -6,4 +6,4 @@ ent-CMLinenBinFilled = { ent-CMLinenBin }
     .suffix = Заполенная
 ent-CMLinenBinFilledUnanchored = { ent-CMLinenBinFilled }
     .desc = { ent-CMLinenBinFilled.desc }
-    .suffix = Filled, Unanchored
+    .suffix = Заполенная, Не Закрепленная

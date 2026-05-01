@@ -48,5 +48,5 @@ rmc-name-hefa-47 = Ульфиус
 rmc-name-hefa-48 = Ивейн
 rmc-name-hefa-49 = Ивейн
 
-rmc-hefa-sword-primed = You prime the sword! It will now explode when you strike someone.
-rmc-hefa-sword-deprimed = You de-activate the sword!
+rmc-hefa-sword-primed = Ты взвел меч! Теперь он взорвется, когда ты ударишь кого-нибудь.
+rmc-hefa-sword-deprimed = Ты снял взвод с меча!

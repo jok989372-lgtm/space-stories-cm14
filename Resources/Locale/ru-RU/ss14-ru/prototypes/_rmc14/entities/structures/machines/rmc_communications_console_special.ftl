@@ -21,4 +21,4 @@ ent-RMCOverwatchConsoleRCM = { ent-RMCOverwatchConsole }
     .suffix = RCM
 ent-RMCOverwatchConsoleRCMRotating = { ent-RMCOverwatchConsoleRCM }
     .desc = { ent-RMCOverwatchConsoleRCM.desc }
-    .suffix = RCM, Rotating
+    .suffix = RCM, Вращающиеся

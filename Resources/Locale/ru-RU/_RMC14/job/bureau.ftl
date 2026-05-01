@@ -15,8 +15,8 @@ rmc-ghost-name-bureau-deputy = Заместитель Бюро (Дружелюб
 rmc-job-name-bureau-deputy = Заместитель Бюро
 rmc-job-prefix-bureau-deputy = Зам БКМ
 
-rmc-job-name-bureau-riot-control-team-leader = CMB Riot Control Team Leader
-rmc-job-prefix-bureau-riot-control-team-leader = CMB RCTL
+rmc-job-name-bureau-riot-control-team-leader = Руководитель группы по борьбе с беспорядками БКМ
+rmc-job-prefix-bureau-riot-control-team-leader = РГББ БКМ
 
 rmc-ghost-name-bureau-observer = Наблюдатель за правами разумных существ (Дружелюбный)
 rmc-job-name-bureau-observer = Наблюдатель за правами разумных существ
@@ -24,4 +24,4 @@ rmc-job-prefix-bureau-observer = НПРС
 
 rmc-ghost-name-icb = Связной Бюро межзвездной торговли (Дружелюбный)
 rmc-job-name-icb = Связной Бюро межзвездной торговли
-rmc-job-prefix-icb = БМТ
+rmc-job-prefix-icb = СБМТ

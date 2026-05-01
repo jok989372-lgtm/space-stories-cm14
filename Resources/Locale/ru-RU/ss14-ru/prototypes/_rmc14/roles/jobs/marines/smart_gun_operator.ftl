@@ -13,5 +13,5 @@ ent-CMSpawnPointSmartGunOperatorCharlie = { ent-CMSpawnPointSmartGunOperator }
 ent-CMSpawnPointSmartGunOperatorDelta = { ent-CMSpawnPointSmartGunOperator }
     .desc = { ent-CMSpawnPointSmartGunOperator.desc }
     .suffix = Дельта
-ent-RMCGuidebookRoleSGO = Smart Gun Operator
-    .desc = Smart Gun Operator
+ent-RMCGuidebookRoleSGO = Оператор Смартгана
+    .desc = Оператор Смартгана

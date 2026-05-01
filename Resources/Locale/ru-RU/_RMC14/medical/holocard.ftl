@@ -17,4 +17,4 @@ ui-holocard-change-searchbar-placeholder = Голокарта
 ui-health-scanner-holocard-change = Изменить
 
 ui-holocard-change-insufficient-skill = У вас недостаточно медицинских навыков, чтобы применить голокарту
-ui-holocard-change-synth-invalid = Triage holocards only work on humans.
+ui-holocard-change-synth-invalid = Голографические карты для сортировки пациентов действуют только на людей.

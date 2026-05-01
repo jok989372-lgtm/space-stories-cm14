@@ -1,3 +1,3 @@
-ent-RMCSpawnPointParamarine = paramarine rifleman spawn point
+ent-RMCSpawnPointParamarine = точка появления стрелка парадесанта
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

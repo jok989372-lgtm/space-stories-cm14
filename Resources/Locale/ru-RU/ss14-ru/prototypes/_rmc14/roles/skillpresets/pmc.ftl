@@ -1,2 +1,2 @@
-ent-RMCSkillPresetPMCCommando = Survivor We-Ya Commando
+ent-RMCSkillPresetPMCCommando = Выживший коммандо "Ве-Я"
     .desc = { "" }

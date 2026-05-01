@@ -28,6 +28,6 @@ ent-RMCIdentificationComputer = компьютер идентификации
 ent-RMCStationAlertComputer = компьютер оповещения станции
     .desc = { ent-RMCPropComputerBase.desc }
     .suffix = { ent-RMCPropComputerBase.suffix }
-ent-RMCSystemsComputer = systems computer
+ent-RMCSystemsComputer = компьютерные системы
     .desc = { ent-RMCPropComputerBase.desc }
     .suffix = { ent-RMCPropComputerBase.suffix }

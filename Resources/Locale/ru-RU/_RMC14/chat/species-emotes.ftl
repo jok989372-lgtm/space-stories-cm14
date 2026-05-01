@@ -14,20 +14,20 @@ rmc-emote-name-bark = Лаять
 rmc-emote-name-snarl = Рычать
 rmc-emote-name-whine = Скулить
 rmc-emote-name-howl = Выть
-rmc-emote-name-yip = Yip
+rmc-emote-name-yip = Тявкать
 
 rmc-emote-bark = лает.
 rmc-emote-snarl = рычит.
 rmc-emote-whine = скулит.
 rmc-emote-howl = воет.
-rmc-emote-yip = yips.
+rmc-emote-yip = гавкает.
 
-rmc-emote-name-gnash = Гнаш
-rmc-emote-gnash = гнашивает.
+rmc-emote-name-gnash = Скрежет
+rmc-emote-gnash = скрежещет.
 
-rmc-emote-name-avali-chirp = Chirp
+rmc-emote-name-avali-chirp = Чирик
 
-rmc-emote-avali-chirp = chirps.
+rmc-emote-avali-chirp = чирикает.
 
 rmc-emote-name-r-rattle = Хвост-Погремушка
 
@@ -51,10 +51,10 @@ rmc-emote-anger = сердито трилькает!
 rmc-emote-trill = трилькает!
 rmc-emote-warble = возглашает!
 
-rmc-emote-name-slime-bubble = Bubble
-rmc-emote-name-slime-pop = Pop
-rmc-emote-name-slime-wobble = Wobble
+rmc-emote-name-slime-bubble = Пузырь
+rmc-emote-name-slime-pop = Лопнуть
+rmc-emote-name-slime-wobble = Колебание
 
-rmc-emote-slime-bubble = bubbles.
-rmc-emote-slime-pop = pops!
-rmc-emote-slime-wobble = wobbles.
+rmc-emote-slime-bubble = пузыри.
+rmc-emote-slime-pop = лопается!
+rmc-emote-slime-wobble = колеблется.

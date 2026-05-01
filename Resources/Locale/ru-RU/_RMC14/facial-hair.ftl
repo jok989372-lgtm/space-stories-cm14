@@ -1,3 +1,3 @@
 marking-RMCHumanFacialHairSoulfulSelleck = Усы (Душевный Селлек-RMC)
 
-marking-RMCHumanFacialHairDwarfAlt = Beard (Dwarf-RMC)
+marking-RMCHumanFacialHairDwarfAlt = Борода (Дварф-RMC)

@@ -1,59 +1,59 @@
-rmc-autodoc-window-title = Autodoc Medical System
-rmc-autodoc-no-occupant = No occupant detected.
-rmc-autodoc-no-autodoc-connected = No autodoc connected.
-rmc-autodoc-no-skill = You don't have the training required to operate this equipment.
+rmc-autodoc-window-title = Медицинская система "Автодок"
+rmc-autodoc-no-occupant = Пациент не обнаружен.
+rmc-autodoc-no-autodoc-connected = Автодок не подключен.
+rmc-autodoc-no-skill = У вас нет подготовки, необходимой для работы с этим оборудованием.
 
-rmc-autodoc-occupant-header = Occupant
-rmc-autodoc-name-label = Name:
-rmc-autodoc-health-label = Health:
-rmc-autodoc-status-label = Status:
-rmc-autodoc-blood-level = Blood Level:
-rmc-autodoc-pulse = Pulse:
-rmc-autodoc-reagents = Reagents:
+rmc-autodoc-occupant-header = Пациент
+rmc-autodoc-name-label = Имя:
+rmc-autodoc-health-label = Здоровье:
+rmc-autodoc-status-label = Статус:
+rmc-autodoc-blood-level = Уровень крови:
+rmc-autodoc-pulse = Пульс:
+rmc-autodoc-reagents = Реагенты:
 
-rmc-autodoc-status-alive = Alive
-rmc-autodoc-status-critical = Critical
-rmc-autodoc-status-dead = DEAD
+rmc-autodoc-status-alive = Жив
+rmc-autodoc-status-critical = Критическое состояние
+rmc-autodoc-status-dead = МЕРТВ
 
-rmc-autodoc-damage-header = Occupant Damage
-rmc-autodoc-brute = Brute:
-rmc-autodoc-burn = Burn:
-rmc-autodoc-toxin = Toxin:
-rmc-autodoc-oxygen = Oxygen:
+rmc-autodoc-damage-header = Повреждения пациента
+rmc-autodoc-brute = Механические:
+rmc-autodoc-burn = Ожоги:
+rmc-autodoc-toxin = Токсины:
+rmc-autodoc-oxygen = Кислородное:
 
-rmc-autodoc-start-surgery = Begin Surgery
-rmc-autodoc-clear-selected = Clear selected
-rmc-autodoc-eject-patient = Eject patient
-rmc-autodoc-import-scan = Import from latest bodyscan
+rmc-autodoc-start-surgery = Начать операцию
+rmc-autodoc-clear-selected = Сбросить выбор
+rmc-autodoc-eject-patient = Извлечь пациента
+rmc-autodoc-import-scan = Импорт данных сканирования
 
-rmc-autodoc-trauma-surgeries-header = Trauma Surgeries
-rmc-autodoc-brute-treatment = Brute Damage Treatment
-rmc-autodoc-burn-treatment = Burn Damage Treatment
-rmc-autodoc-close-incisions = Close Open Incisions
-rmc-autodoc-shrapnel-removal = Shrapnel Removal Surgery
+rmc-autodoc-trauma-surgeries-header = Травматологические операции
+rmc-autodoc-brute-treatment = Лечение механических повреждений
+rmc-autodoc-burn-treatment = Лечение ожоговых повреждений
+rmc-autodoc-close-incisions = Закрытие хирургических разрезов
+rmc-autodoc-shrapnel-removal = Операция по удалению осколков
 
-rmc-autodoc-hematology-header = Hematology Treatments
-rmc-autodoc-blood-transfusion = Blood Transfusion
-rmc-autodoc-dialysis = Dialysis
-rmc-autodoc-toxin-treatment = Toxin Damage Treatment
+rmc-autodoc-hematology-header = Гематологические процедуры
+rmc-autodoc-blood-transfusion = Переливание крови
+rmc-autodoc-dialysis = Диализ
+rmc-autodoc-toxin-treatment = Лечение токсического поражения
 
-rmc-autodoc-orthopedic-header = Orthopedic Surgeries
-rmc-autodoc-internal-bleeding = Internal Bleeding Surgery
-rmc-autodoc-broken-bone = Broken Bone Surgery
-rmc-autodoc-organ-damage = Organ Damage Treatment
-rmc-autodoc-larva-extraction = Parasite Extraction
+rmc-autodoc-orthopedic-header = Ортопедические операции
+rmc-autodoc-internal-bleeding = Операция при внутреннем кровотечении
+rmc-autodoc-broken-bone = Операция по сращиванию костей
+rmc-autodoc-organ-damage = Лечение повреждений органов
+rmc-autodoc-larva-extraction = Извлечение паразита
 
-rmc-autodoc-upgrade-installed = You insert the data disk into the console and the drive whirs to life, reading the data.
-rmc-autodoc-upgrade-already-installed = This upgrade data is already present in the console!
-rmc-autodoc-upgrade-required = The console requires a research upgrade to unlock this procedure.
+rmc-autodoc-upgrade-installed = Вы вставляете диск с данными в консоль; привод оживает со скрежетом, считывая информацию.
+rmc-autodoc-upgrade-already-installed = Это обновление уже установлено в консоли!
+rmc-autodoc-upgrade-required = Консоли требуется научное обновление для разблокировки этой процедуры.
 
-rmc-autodoc-surgery-starting = The autodoc begins to operate, loud audible clicks lock the pod.
-rmc-autodoc-incisions-starting = The autodoc begins closing surgical incisions.
-rmc-autodoc-larva-starting = The autodoc begins parasite extraction surgery.
+rmc-autodoc-surgery-starting = Автодок начинает работу, капсула блокируется со слышимым щелчком.
+rmc-autodoc-incisions-starting = Автодок начинает закрытие хирургических разрезов.
+rmc-autodoc-larva-starting = Автодок начинает операцию по извлечению паразита.
 
-rmc-autodoc-no-scan-data = No scan data available to import.
-rmc-autodoc-unneeded = Procedure has been deemed unnecessary.
-rmc-autodoc-complete = The autodoc clicks and opens up having finished the requested operations.
-rmc-autodoc-patient-dead = Patient has expired.
-rmc-autodoc-surgery-aborted = The autodoc malfunctions as surgery is aborted!
-rmc-autodoc-cannot-exit-during-surgery = There's no way you're getting out while this thing is operating on you!
+rmc-autodoc-no-scan-data = Нет данных сканирования для импорта.
+rmc-autodoc-unneeded = Процедура признана излишней.
+rmc-autodoc-complete = Автодок щелкает и открывается, завершив запрошенные операции.
+rmc-autodoc-patient-dead = Пациент скончался.
+rmc-autodoc-surgery-aborted = Сбой в работе автодока: операция прервана!
+rmc-autodoc-cannot-exit-during-surgery = Вы никак не сможете выбраться, пока эта штука вас оперирует!

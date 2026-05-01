@@ -18,5 +18,5 @@ ent-XenoAcidSprayTrapStrong = сильные брызги
     .desc = Он сильно горит!
 ent-XenoAcidExtinguishEffect = { ent-RMCBaseEffect }
     .desc = Холодно...
-ent-RMCAcidHole = acid hole
-    .desc = A corroded opening in the wall.
+ent-RMCAcidHole = кислотная дыра
+    .desc = Коррозионное отверстие в стене.

@@ -1,6 +1,6 @@
-ent-RMCSurvivorPresetSPPCrashlandWeaponOnly = spp crashland survivor weapon only preset
+ent-RMCSurvivorPresetSPPCrashlandWeaponOnly = пресет выжившего СПН (крушение) — только оружие
     .desc = { "" }
-ent-RMCSurvivorPresetSPPCrashlandNoBelt = spp crashland survivor no belt preset
+ent-RMCSurvivorPresetSPPCrashlandNoBelt = пресет выжившего СПН (крушение) — без пояса
     .desc = { "" }
-ent-RMCSurvivorPresetSPPCrashland = spp crashland survivor all random preset
+ent-RMCSurvivorPresetSPPCrashland = пресет выжившего СПН (крушение) — случайный набор
     .desc = { "" }

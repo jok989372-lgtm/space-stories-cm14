@@ -88,16 +88,16 @@ rmc-job-name-pmc-corporate-goon-medic = Корпоративный медик С
 rmc-job-name-pmc-corporate-goon-leader = Руководитель корпоративной СБ Ве-Я
 rmc-job-name-pmc-corporate-goon-secguard = Охранник Ве-Я
 
-rmc-job-name-pmc-pve-team-leader = Руководитель группы
-rmc-job-prefix-pmc-pve-team-leader = TL
+rmc-job-name-pmc-pve-team-leader = Командир группы
+rmc-job-prefix-pmc-pve-team-leader = КГ
 rmc-job-description-pmc-pve-team-leader = Облегчите бремя лидера. Убедитесь, что ваша команда эффективно выполняет приказы.
 
 rmc-job-name-pmc-pve-force-leader = Командир отряда
-rmc-job-prefix-pmc-pve-force-leader = FL
+rmc-job-prefix-pmc-pve-force-leader = КО
 rmc-job-description-pmc-pve-force-leader = Командуйте силами на земле. Представляйте волю и потребности командования силами.
 
 rmc-job-name-pmc-pve-force-command = Командующий отрядом
-rmc-job-prefix-pmc-pve-force-command = FCO
+rmc-job-prefix-pmc-pve-force-command = КОМ
 rmc-job-description-pmc-pve-force-command = Координируйте свои действия с руководителем подразделения и руководителями групп, чтобы обеспечить выполнение ваших инструкций и чтобы ваша команда заслужила свою зарплату.
 
 rmc-ghost-name-pmc-whiteout = Боевой юнит ЧВК Ве-Я "Белая мгла" (!DEATHSQUAD!)

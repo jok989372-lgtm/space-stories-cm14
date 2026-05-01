@@ -28,7 +28,7 @@ chat-radio-spp = СПН
 chat-radio-spp-engi = СПН Инж
 chat-radio-spp-med = СПН Мед
 chat-radio-spp-cct = СПН CCT
-chat-radio-halcyon = Halcyon Dynamics
+chat-radio-halcyon = Динамика Гальциона
 
 chat-radio-royal-marine = Королевские морпехи
 chat-radio-tse = Империя трех солнц

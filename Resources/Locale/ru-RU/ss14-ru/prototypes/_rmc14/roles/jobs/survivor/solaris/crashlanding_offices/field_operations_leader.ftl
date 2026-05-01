@@ -1,3 +1,3 @@
-ent-RMCSpawnPointSurvivorCrashlandingOfficesFOL = special survivor crashlanding offices pmc field operations leader spawn point
+ent-RMCSpawnPointSurvivorCrashlandingOfficesFOL = точка появления спец. выжившего лидер полевых операций ЧВК (офисы после крушения)
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

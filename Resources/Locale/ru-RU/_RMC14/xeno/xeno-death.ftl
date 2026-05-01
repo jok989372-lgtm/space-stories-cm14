@@ -6,4 +6,4 @@ cm-xeno-death-queen =  Внезапная дрожь прокатывается 
 rmc-xeno-hibernation = Королева ушла без нас. Мы быстро находим укрытие и впадаем в спячку, поскольку теряем связь с ульем...
 rmc-xeno-death-king =  Внезапная дрожь прокатилась по улью... Король пал! Мстите!
 
-rmc-xeno-larva-recovered = { CAPITALIZE($larva) } melds into the hivecore, a new larva will emerge soon.
+rmc-xeno-larva-recovered = Если { CAPITALIZE($larva) } сольётся с ядром улья, вскоре появится новая личинка.

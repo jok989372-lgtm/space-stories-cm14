@@ -1,5 +1,5 @@
-ent-RMCArmorHelmetMercenaryAHPS30 = AHPS30 ballistic helmet
-    .desc = The Advanced Head Protection System is a ballistic helmet sold widely on civilian markets, especially on the frontier. Originally produce by AEGIS, the design would see widespread production by other corporations and groups once the patent expired. Often found in the hands of mercenary groups.
+ent-RMCArmorHelmetMercenaryAHPS30 = баллистический шлем AHPS30
+    .desc = Усовершенствованная система защиты головы — это баллистический шлем, широко продаваемый на гражданских рынках, особенно на окраинах. Первоначально произведённый AEGIS, дизайн получил широкое производство другими корпорациями и группами после истечения срока патента. Часто встречается в руках наёмных групп.
 ent-RMCArmorHelmetMercenaryAHPS30Lamp = { ent-RMCArmorHelmetMercenaryAHPS30 }
-    .desc = The Advanced Head Protection System is a ballistic helmet sold widely on civilian markets, especially on the frontier. Originally produce by AEGIS, the design would see widespread production by other corporations and groups once the patent expired. Often found in the hands of mercenary groups. This one has been modified to have a lamp built-in.
-    .suffix = Light
+    .desc = Усовершенствованная система защиты головы — это баллистический шлем, широко продаваемый на гражданских рынках, особенно на окраинах. Первоначально произведённый AEGIS, дизайн получил широкое производство другими корпорациями и группами после истечения срока патента. Часто встречается в руках наёмных групп. Этот был модифицирован со встроенным фонарём.
+    .suffix = Лёгкий

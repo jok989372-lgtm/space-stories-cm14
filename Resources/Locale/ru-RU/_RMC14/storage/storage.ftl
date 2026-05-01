@@ -29,4 +29,4 @@ rmc-storage-hand-eject-first-item = Щелчок по { $storage } пустой 
 rmc-storage-hand-eject-unequips = Щелчок по { $storage } теперь снимает его.
 rmc-storage-hand-eject-open = Щелчок по { $storage } теперь открывает его.
 
-rmc-hijack-cabinet-locked = This cabinet will unlock and open itself during evacuation procedures.
+rmc-hijack-cabinet-locked = Этот шкаф автоматически разблокируется и откроется во время эвакуации.

@@ -1,3 +1,3 @@
-ent-RMCSpawnPointParaMedicalTechnician = paramarine combat medical technician spawn point
+ent-RMCSpawnPointParaMedicalTechnician = точка появления боевого медика парадесанта
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

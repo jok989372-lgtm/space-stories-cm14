@@ -1,3 +1,3 @@
-ent-RMCSpawnPointSurvivorPanicRoomAssistantManager = special survivor panic room assistant manager spawn point
+ent-RMCSpawnPointSurvivorPanicRoomAssistantManager = точка появления спец. выжившего ассистент менеджера (бункер)
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

@@ -60,12 +60,12 @@ rmc-first-aid-container-label-text = ПП
 rmc-emergency-medicine-container-label-text = А
 rmc-dexalin-plus-container-label-text = ДЕ+
 rmc-epinephrine-container-label-text = ЭПИ
-rmc-keloderm-container-label-text = KD
+rmc-keloderm-container-label-text = КД
 rmc-merabic-container-label-text = МБ
 rmc-russianred-container-label-text = Рк
-rmc-imidazoline-container-label-text = IM
-rmc-dermaline-container-label-text = DE
-rmc-iron-container-label-text = Fe
+rmc-imidazoline-container-label-text = ИМ
+rmc-dermaline-container-label-text = ДЕ
+rmc-iron-container-label-text = ЖЕ
 
 rmc-custom-container-label-text = { $customLabel }
 

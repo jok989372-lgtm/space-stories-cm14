@@ -1,3 +1,3 @@
-ent-RMCSpawnPointParaSupportSynthetic = paramarine support synthetic spawn point
+ent-RMCSpawnPointParaSupportSynthetic = точка появления синтетика поддержки парадесанта
     .desc = { ent-CMSpawnPointJobBase.desc }
     .suffix = { ent-CMSpawnPointJobBase.suffix }

@@ -1,3 +1,3 @@
-ent-RMCSpawnPointSurvivorShivasPanicRoomDoctor = special survivor shivas panic room doctor spawn point
+ent-RMCSpawnPointSurvivorShivasPanicRoomDoctor = точка появления спец. выжившего врач (бункер Шивы)
     .desc = { ent-RMCSpawnPointSurvivorShivasDoctor.desc }
     .suffix = { ent-RMCSpawnPointSurvivorShivasDoctor.suffix }

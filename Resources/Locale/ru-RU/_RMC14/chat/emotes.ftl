@@ -16,11 +16,11 @@ rmc-hands-emotes-fistbump = { $ent } даёт кулачок { $target }!
 rmc-hands-emotes-fistbump-attempt-self = Вы протягиваете кулак для кулачка с { $target }.
 rmc-hands-emotes-fistbump-attempt = { $ent } протягивает свой кулак для кулачка с { $target }.
 
-rmc-hands-emotes-handshake-self = You and { $target } shake hands!
-rmc-hands-emotes-handshake = { $ent } and { $target } shake hands!
+rmc-hands-emotes-handshake-self = Вы и { $target } пожимаете друг другу руки!
+rmc-hands-emotes-handshake = { $ent } и { $target } пожимают друг другу руки!
 
-rmc-hands-emotes-handshake-attempt-self = You reach out your hand for a handshake from { $target }.
-rmc-hands-emotes-handshake-attempt = { $ent } reaches { POSS-ADJ($ent) } hand out for a handshake from { $target }.
+rmc-hands-emotes-handshake-attempt-self = Вы протягиваете руку для рукопожатия с { $target }.
+rmc-hands-emotes-handshake-attempt = { $ent } протягивает { POSS-ADJ($ent) } руку для рукопожатия с { $target }.
 
 rmc-hands-emotes-tailswipe-self = Вы задеваете { $target } хвостом!
 rmc-hands-emotes-tailswipe = { $ent } задевает { $target } хвостом!
@@ -33,7 +33,7 @@ rmc-hands-emotes-left-hanging = Вас проигнорировали!
 rmc-hands-emotes-fistbump-perform = Стукнуться кулаками.
 rmc-hands-emotes-highfive-perform = Дать пять.
 rmc-hands-emotes-hug-perform = Обнять.
-rmc-hands-emotes-handshake-perform = Perform a handshake
+rmc-hands-emotes-handshake-perform = Пожать руки.
 rmc-hands-emotes-tailswipe-perform = Взмахнуть хвостом.
 
 rmc-hands-emotes-get-closer = Подойти ближе.

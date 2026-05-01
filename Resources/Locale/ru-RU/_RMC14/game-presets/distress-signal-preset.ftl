@@ -32,9 +32,9 @@ rmc-distress-signal-got-medal = { $receiver } награжден { $award }: '{ 
 
 rmc-distress-signal-got-jelly = { $receiver } награжден { $award }: '{ $awardDescription }' от { $giver }
 
-rmc-distress-signal-ares-online = ARES. Online. Good morning, marines.
-rmc-distress-signal-bioscan-complete = Bioscan complete. No unknown lifeform signature detected.
-rmc-distress-signal-saving-report = Saving operational report to archive.
-rmc-distress-signal-final-scan = Commencing final systems scan in 3 minutes.
-rmc-distress-signal-admin-start-fail = Can't start distress signal. Requires at least { $minimum } xeno player but we have { $candidates }.
-rmc-distress-signal-operation-name = Operation { $name }
+rmc-distress-signal-ares-online = ARES. В сети. Доброе утро, морские пехотинцы.
+rmc-distress-signal-bioscan-complete = Биосканирование завершено. Не обнаружена сигнатур неизвестных форм жизни.
+rmc-distress-signal-saving-report = Сохранение оперативного отчета в архив.
+rmc-distress-signal-final-scan = Запуск финального сканирования систем через 3 минуты.
+rmc-distress-signal-admin-start-fail = Не удается запустить сигнал бедствия. Требуется как минимум { $minimum } игроков ксеноморфов, но у нас есть { $candidates }.
+rmc-distress-signal-operation-name = Операция { $name }

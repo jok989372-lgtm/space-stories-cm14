@@ -88,6 +88,9 @@ ent-RMCBeltHolsterPistolPara = paramarine load bearing rig
 ent-RMCBeltUtilityGeneralRCMPVE = { ent-RMCBeltUtilityGeneralRCM }
     .desc = { ent-RMCBeltUtilityGeneralRCM.desc }
     .suffix = PVE, RCM
+ent-RMCMkXBelt = L21 pattern revolver holster
+    .desc = An expensive tan leather belt designed to fit the MkX top-break revolver. Available to senior officers of the RCM by back order only.
+    .suffix = PVE, CO
 ent-RMCBeltL49 = L28-pattern shotgun shell rig
     .desc = An L28-pattern shotgun holster rig, equipped with loops to hold loose 12ga shells and featuring a holster on the back capable of holding an L49 assault shotgun.
         Shotguns equipped with magnetic harnesses or slings can be strapped directly to the belt, preventing them from being dropped.

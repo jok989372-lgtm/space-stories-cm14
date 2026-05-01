@@ -1,6 +1,6 @@
 ent-CMSpawnPointSurvivor = точка спавна выжившего
     .desc = { ent-CMSpawnPointJobBase.desc }
-    .suffix = Job Spawn, Main
+    .suffix = Спавн Профессии, Основной
 ent-CMGuidebookRoleSurvivor = Выживший
     .desc = { ent-CMGuidebookRole.desc }
 ent-RMCSurvivorPresetNoGun = пресет колониста без оружия
@@ -13,4 +13,3 @@ ent-RMCSurvivorPresetCivilianOutfits = предварительный набор
     .desc = { ent-RMCSurvivorPresetCivilianRareItem.desc }
 ent-RMCRandomHumanoidSurvivorCivilian = гражданский колонист роль призрака
     .desc = { ent-MarkerBase.desc }
-

@@ -1,6 +1,6 @@
 ent-STPresentRandomCash = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
-    .suffix = Filled MCCash
+    .suffix = Запроненный MCCash
 ent-STPresentRandom = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
-    .suffix = Filled MC
+    .suffix = Запроненный MC

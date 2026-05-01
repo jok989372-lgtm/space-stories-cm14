@@ -79,15 +79,15 @@ rmc-xeno-weeds-blocked = Мы не можем сделать это здесь.
 cm-xeno-acid-not-corrodible = Вы не можете разъесть { $target }!
 cm-xeno-acid-already-corroding = На { $target } уже есть коррозийная кислота!
 rmc-xeno-acid-structure-unmeltable = Мы можем плавить только баррикады и предметы!
-rmc-xeno-acid-too-weak = { CAPITALIZE(THE($target)) } слишком прочный, чтобы его расплавила наша слабая кислота.
-rmc-acid-pickup-blocked = { CAPITALIZE(THE($target)) } is covered in corrosive acid!
-rmc-acid-hole-already-weakened = It's already been weakened.
-rmc-acid-hole-only-small-xenos = Only small xenos can fit through this hole.
-rmc-acid-hole-too-large = We are too large to squeeze through this hole.
-rmc-acid-hole-wrong-side = We need to approach the hole from the entrance side!
-rmc-acid-hole-no-exit = There's no space to crawl through there.
-rmc-acid-hole-blocked = Something is blocking the other side.
-rmc-acid-hole-repair-blocked = The wall is breached and must be patched first.
+rmc-xeno-acid-too-weak = { CAPITALIZE($target) } слишком прочный, чтобы его расплавила наша слабая кислота.
+rmc-acid-pickup-blocked = { CAPITALIZE($target) } покрыт коррозийной кислотой!
+rmc-acid-hole-already-weakened = Оно уже ослаблено.
+rmc-acid-hole-only-small-xenos = Только маленькие ксеносы могут пролезть через это отверстие.
+rmc-acid-hole-too-large = Мы слишком велики, чтобы протиснуться в это отверстие.
+rmc-acid-hole-wrong-side = Нам нужно подойти к отверстию со стороны входа!
+rmc-acid-hole-no-exit = Там нет места, чтобы проползти.
+rmc-acid-hole-blocked = Что-то блокирует проход с другой стороны.
+rmc-acid-hole-repair-blocked = Стена пробита, сначала её нужно заделать.
 
 # Paralyzing Slash
 cm-xeno-paralyzing-slash-activate = Ваш следующий удар применит нейротоксин!

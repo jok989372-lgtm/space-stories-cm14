@@ -325,3 +325,9 @@ marking-RMCHumanHairPulatoLong = ПулатоЛонг (RMC)
 marking-RMCHumanHairPulatoLong2 = ПулатоЛонг 2 (RMC)
 
 marking-RMCHumanHairPonytail9 = Хвост 9 (RMC)
+
+marking-RMCHumanHairShavedKnot = Бритый узел (RMC)
+
+marking-RMCHumanHairHolly = Падуб (RMC)
+
+marking-RMCHumanHairHollyShaved = Падуб бритый (RMC)

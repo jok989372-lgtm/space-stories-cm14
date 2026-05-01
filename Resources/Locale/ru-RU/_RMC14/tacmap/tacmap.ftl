@@ -5,7 +5,7 @@ ui-tactical-map-tab-canvas = Холст
 ui-tactical-map-label-dialog-create-title = Создать метку
 ui-tactical-map-label-dialog-edit-title = Редактировать метку
 ui-tactical-map-label-dialog-placeholder = Текст метки...
-ui-tactical-map-label-dialog-ok = OK
+ui-tactical-map-label-dialog-ok = ОК
 ui-tactical-map-label-dialog-cancel = Отмена
 ui-tactical-map-label-dialog-delete = Удалить
 

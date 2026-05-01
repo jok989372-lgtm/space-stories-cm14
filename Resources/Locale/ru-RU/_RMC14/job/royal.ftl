@@ -38,32 +38,32 @@ rmc-job-prefix-rcm-captain = МПК КПТ
 rmc-job-name-rcm-major = Майор Королевской морской пехоты
 rmc-job-prefix-rcm-major = МПК Майор
 
-rmc-job-name-rcm-pve-rifleman = Rifleman
-rmc-job-prefix-rcm-pve-rifleman = RM
+rmc-job-name-rcm-pve-rifleman = Стрелок
+rmc-job-prefix-rcm-pve-rifleman = СТР
 
-rmc-job-name-rcm-pve-troop-sergeant = Sergeant
-rmc-job-prefix-rcm-pve-troop-sergeant = Sgt
+rmc-job-name-rcm-pve-troop-sergeant = Сержант подразделения
+rmc-job-prefix-rcm-pve-troop-sergeant = СРЖ
 
-rmc-job-name-rcm-pve-section-leader = Section Leader
-rmc-job-prefix-rcm-pve-section-leader = STL
+rmc-job-name-rcm-pve-section-leader = Командир отделения
+rmc-job-prefix-rcm-pve-section-leader = КО
 
-rmc-job-name-rcm-pve-team-leader = Team Leader
-rmc-job-prefix-rcm-pve-team-leader = TL
+rmc-job-name-rcm-pve-team-leader = Лидер группы
+rmc-job-prefix-rcm-pve-team-leader = ЛГ
 
-rmc-job-name-rcm-pve-gpmg-gunner = GPMG Gunner
-rmc-job-prefix-rcm-pve-gpmg-gunner = GPMG
+rmc-job-name-rcm-pve-gpmg-gunner = Пулеметчик (ЕП)
+rmc-job-prefix-rcm-pve-gpmg-gunner = ПУЛ
 
-rmc-job-name-rcm-pve-medical-assistant = Medical Assistant
-rmc-job-prefix-rcm-pve-medical-assistant = MA
+rmc-job-name-rcm-pve-medical-assistant = Санитар
+rmc-job-prefix-rcm-pve-medical-assistant = САН
 
-rmc-job-name-rcm-pve-assault-engineer = Assault Engineer
-rmc-job-prefix-rcm-pve-assault-engineer = AE
+rmc-job-name-rcm-pve-assault-engineer = Штурмовой инженер
+rmc-job-prefix-rcm-pve-assault-engineer = ШТИНЖ
 
-rmc-job-name-rcm-pve-scout-sniper = Scout Sniper
-rmc-job-prefix-rcm-pve-scout-sniper = SnS
+rmc-job-name-rcm-pve-scout-sniper = Разведчик-снайпер
+rmc-job-prefix-rcm-pve-scout-sniper = РСН
 
-rmc-job-name-rcm-pve-bombardment-specialist = Bombardment Specialist
-rmc-job-prefix-rcm-pve-bombardment-specialist = BMBRD
+rmc-job-name-rcm-pve-bombardment-specialist = Специалист по бомбардировке
+rmc-job-prefix-rcm-pve-bombardment-specialist = СПБ
 
-rmc-job-name-rcm-pve-troop-commander = Commander
-rmc-job-prefix-rcm-pve-troop-commander = Com
+rmc-job-name-rcm-pve-troop-commander = Командир подразделения
+rmc-job-prefix-rcm-pve-troop-commander = КМД

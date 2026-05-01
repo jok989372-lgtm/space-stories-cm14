@@ -1,22 +1,22 @@
-rmc-ghost-role-information-cbrn-rules = You are a [color=purple][bold]CBRN member[/bold][/color]. You should generally not seek to harm the marines, depending on admin instructions.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+rmc-ghost-role-information-cbrn-rules = Вы — [color=purple][bold]боец РХБЗ[/bold][/color]. Как правило, вы не должны стремиться причинить вред морпехам, если иное не указано администрацией.
+                                             Вы не помните ничего из своей прошлой жизни и ничего из того, что узнали, будучи призраком.
+                                             Вам разрешено помнить общие игровые знания, такие как способы приготовления пищи, использование предметов и т. д.
+                                             Вам категорически [color=red]ЗАПРЕЩЕНО[/color] помнить, к примеру, имя, внешность и другие подробности вашего предыдущего персонажа.
 
-rmc-ghost-name-cbrn-rifleman = CBRN Rifleman
-rmc-job-description-cbrn-rifleman = Trained to operate in chemical, biological, radiological, and nuclear hazard zones. You will support other units in contaminated environments.
+rmc-ghost-name-cbrn-rifleman = Стрелок РХБЗ
+rmc-job-description-cbrn-rifleman = Обучен действиям в зонах радиационной, химической, биологической и ядерной опасности. Ваша задача — поддержка других подразделений в условиях заражения.
 
-rmc-ghost-name-cbrn-combat-tech = CBRN Combat Technician
-rmc-job-description-cbrn-combat-tech = As a CBRN Combat Technician, you will provide technical support to ensure the safety of your team in hazardous environments.
+rmc-ghost-name-cbrn-combat-tech = Боевой техник РХБЗ
+rmc-job-description-cbrn-combat-tech = В качестве боевого техника РХБЗ вы будете обеспечивать техническую поддержку для обеспечения безопасности вашей группы в опасных условиях.
 
-rmc-ghost-name-cbrn-fireteam-leader = CBRN Fireteam Leader
-rmc-job-description-cbrn-fireteam-leader = As a CBRN Fireteam Leader, you will lead a small team in contaminated environments, plan and execute missions, ensure your team's safety, and coordinate with other units to achieve objectives.
+rmc-ghost-name-cbrn-fireteam-leader = Лидер огневой группы РХБЗ
+rmc-job-description-cbrn-fireteam-leader = В качестве лидера огневой группы РХБЗ вы будете руководить небольшим отрядом в условиях заражения, планировать и выполнять задачи, обеспечивать безопасность группы и координировать действия с другими подразделениями.
 
-rmc-ghost-name-cbrn-squad-leader = CBRN Squad Leader
-rmc-job-description-cbrn-squad-leader = As a CBRN Squad Leader, you will command a squad of soldiers in CBRN hazard zones. You will ensuring the safety of your squad, and coordinating with other units to achieve objectives.
+rmc-ghost-name-cbrn-squad-leader = Командир отделения РХБЗ
+rmc-job-description-cbrn-squad-leader = В качестве командира отделения РХБЗ вы будете командовать отделением солдат в зонах РХБ-опасности, обеспечивая их безопасность и координируя действия с другими подразделениями.
 
-rmc-ghost-name-cbrn-ws = CBRN Weapons Specialist
-rmc-job-description-cbrn-ws = As a CBRN Weapons Specialist, you will be responsible for maintaining and operating specialized equipment used in CBRN environments.
+rmc-ghost-name-cbrn-ws = Специалист по вооружению РХБЗ
+rmc-job-description-cbrn-ws = Как специалист по вооружению РХБЗ, вы отвечаете за обслуживание и использование специализированного оборудования, применяемого в условиях РХБ-заражения.
 
-rmc-ghost-name-cbrn-medic = CBRN Hospital Corpsman
-rmc-job-description-cbrn-medic = As a CBRN Hospital Corpsman, you will provide medical care to soldiers in contaminated environments. You will be trained to treat injuries and illnesses caused by CBRN hazards.
+rmc-ghost-name-cbrn-medic = Санитар РХБЗ
+rmc-job-description-cbrn-medic = В качестве санитара РХБЗ вы будете оказывать медицинскую помощь бойцам в условиях заражения. Вы обучены лечению травм и заболеваний, вызванных факторами РХБ-опасности.

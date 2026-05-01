@@ -17,7 +17,7 @@ rmc-power-loader-full-ammo = { CAPITALIZE($ammo) } заполнена!
 rmc-power-loader-occupied-weapon = Там уже установлено оружие!
 rmc-power-loader-occupied-deployer = Там уже установлено устройство для развертывания оборудования!
 rmc-power-loader-occupied-ammo = Сначала нужно разгрузить ящик с патронами!
-rmc-power-loader-occupied-deployable = You need to unload the ordnance inside first!
+rmc-power-loader-occupied-deployable = Сначала нужно разгрузить боеприпасы внутри!
 rmc-power-loader-ammo-no-weapon = Сначала нужно установить оружие!
 
 rmc-power-loader-occupied = Там уже что-то установлено!
