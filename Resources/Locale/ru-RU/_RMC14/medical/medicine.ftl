@@ -65,7 +65,6 @@ rmc-merabic-container-label-text = МБ
 rmc-russianred-container-label-text = Рк
 rmc-imidazoline-container-label-text = ИМ
 rmc-dermaline-container-label-text = ДЕ
-rmc-meralyne-container-label-text = МЕ
 rmc-iron-container-label-text = ЖЕ
 
 rmc-custom-container-label-text = { $customLabel }
